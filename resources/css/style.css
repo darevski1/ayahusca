@@ -1,0 +1,10 @@
+@import "mobile.css";
+
+body {
+    background: #FFFBED;
+    font-family: 'Karla', sans-serif;
+    font-size: 14pt;
+}
+.maincontent {
+    min-height: 70%;
+}
