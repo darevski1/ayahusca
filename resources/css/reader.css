@@ -1,0 +1,14 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .csc {
+        width: 80%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .main-head-reader {
+        font-size: 25pt;
+    }
+    .lead-article {
+        margin-top: 30px;
+    }
+}

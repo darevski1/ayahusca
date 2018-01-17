@@ -1,5 +1,7 @@
 @import "mobile.css";
 @import "links.css";
+@import "reader.css";
+
 body {
     background: #FFFBED;
     font-family: 'Karla', sans-serif;
