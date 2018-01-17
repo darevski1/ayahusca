@@ -48,7 +48,33 @@
         width: 90px;
         border: 1px solid;
     }
+/* Reader */
+    .main-reader {
+        margin-top: 40px;
 
+    }
+    .main-head-reader {
+        font-size: 20pt;
+        margin: 0;
+    }
+    .sub-head-reader {
+        font-size: 14pt;
+    }
+    .reader-p {
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .main-content-reader {
+        margin-top: 40px;
+    }
+    .space-xm {
+        margin-top: 100px;
+    }
+    .space-xs {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+/*./ Reader*/
 }
 
 
