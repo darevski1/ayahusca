@@ -1,13 +1,33 @@
 @media screen and (max-width: 600px) {
     /* DivTable.com */
 
-    .cont-div {
-        display:table;
+    .nbslide p{
+        border-right: 1px solid;
+        padding: 9px;
+        margin: 10px;
     }
     .col1, .col2, .col3 {
         display:table-cell;
     }
-
+    .div-col {
+        height: 34px;
+    }
+    .top-sp {
+        margin-top: 5px;
+    }
+    .cbs-name {
+        font-size: 15pt;
+        font-weight: bold;
+    }
+    .cbs-name-s1 {
+        color: #c4c4c4;
+        font-size: 14pt;
+    }
+    .inline-block {
+        width: 150px;
+        border-right: 1px solid;
+        height: 50px;
+    }
     .animate-block-graph {
         height: 320px;
         width: 90%;
@@ -35,6 +55,9 @@
         font-weight: bold;
         margin: 0;
         padding: 0;
+    }
+    .singleine{
+        margin-top: 12px;
     }
     .sub-title-paper-search {
         font-size: 14pt;
@@ -117,7 +140,10 @@
     }
     .fontsi {
         font-size: 16pt;
+        display: table-cell;
         vertical-align: middle;
+        padding: 5px;
+        padding-right: 0;
     }
     .space-xs {
         margin-top: 60px;
@@ -166,6 +192,13 @@
         margin-top: 40px;
         margin-bottom: 40px;
     }
+    .main-sr-title-x1 {
+        height: 20px;
+    }
+    .main-sr-title-x2 {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
     .navbar-form {
         height: 40px;
     }
@@ -203,5 +236,12 @@
 }
 
 
-
+#TouchScroller div.scrollableArea *
+{
+    position: relative;
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
 
