@@ -14,7 +14,9 @@ p {
     padding: 0;
 }
 
-
+.hrstyle {
+    margin-top: 40px;
+}
 @media screen and (max-width: 600px) {
     .divTable{
         display: table;

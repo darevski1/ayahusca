@@ -45,20 +45,20 @@
             <div class="sub-top">
                 <h5 class="text-center search-title">Search</h5>
             </div>
-            <div class="search-box">
-                <div id="custom-search-input">
-                    <div class="input-group col-md-12">
-                        <input type="text" class="  search-query form-control" placeholder="Search" />
-                                <span class="input-group-btn">
-                                    <button class="btn btn-danger" type="button">
-                                        <span class=" glyphicon glyphicon-search"></span>
-                                    </button>
-                                </span>
+            <form role="search">
+                <div class="input-group add-on">
+                    <input class="form-control" placeholder="Search" name="search" id="srch-term" type="text">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default btn-search" type="submit"><i class="fa fa-times blue" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="input-group-btn">
+                        <button class="btn btn-default btn-search-r" type="submit"><i class="fa fa-search blue" aria-hidden="true"></i></button>
                     </div>
                 </div>
-            </div>
+            </form>
             <div class="range-slider">
-
+                <div id="slider-range"></div>
+                <input id="amount" />
             </div>
             <h5 class="main-sr-title text-center">
             Authors:
@@ -123,12 +123,12 @@
                 Topics
             </h5>
             <div class="search-res">
-                <h5 class="blue f15 text-center">Topicc 10 (anthopology)</h5>
-                <h5 class="blue f15 text-center">Topicc 10 (anthopology)</h5>
-                <h5 class="blue f15 text-center">Topicc 10 (anthopology)</h5>
+                <h5 class="blue text-center spacex">Topicc 10 (anthopology)</h5>
+                <h5 class="blue text-center spacex">Topicc 10 (anthopology)</h5>
+                <h5 class="blue text-center spacex">Topicc 10 (anthopology)</h5>
             </div>
             <!-- hrline-->
-            <hr>
+            <hr class="hrstyle">
             <h5 class="main-sr-title text-center">
                 Abstract: 25
             </h5>
@@ -187,7 +187,8 @@
 </div>
 <!--./ wraper-->
 
-<script src="vendor/js/sly.min.js"></script>
+
+<script src="vendor/js/jplist.core.min.css"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
