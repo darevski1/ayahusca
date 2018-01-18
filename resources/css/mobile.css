@@ -1,4 +1,23 @@
 @media screen and (max-width: 600px) {
+    /* DivTable.com */
+
+    .cont-div {
+        display:table;
+    }
+    .col1, .col2, .col3 {
+        display:table-cell;
+    }
+
+    .animate-block-graph {
+        height: 320px;
+        width: 90%;
+        border: 1px solid;
+        margin: 0px auto;
+    }
+    .filter-block {
+        height: 40px;
+        border:1px solid;
+    }
     .sidebar {
         display: none;
     }
@@ -172,5 +191,7 @@
 
     /*./Search*/
 }
+
+
 
 
