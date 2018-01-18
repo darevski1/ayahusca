@@ -94,6 +94,7 @@
     .main-head-reader {
         font-size: 20pt;
         margin: 0;
+        margin-top: -10px;
     }
     .sub-head-reader {
         font-size: 14pt;
@@ -105,8 +106,18 @@
     .main-content-reader {
         margin-top: 40px;
     }
+    .main-content-reader-1 {
+        margin-top: -4px;
+    }
     .space-xm {
         margin-top: 100px;
+    }
+    .space-xm-1 {
+        margin-top: 84px;
+    }
+    .fontsi {
+        font-size: 16pt;
+        vertical-align: middle;
     }
     .space-xs {
         margin-top: 60px;
