@@ -135,6 +135,10 @@
         float:right;
     }
     /*Search*/
+    .spacex {
+        margin-top: 25px;
+        font-size: 15pt;
+    }
     .search-res {
     margin-left: 10px;
     margin-right: 10px;
@@ -146,50 +150,45 @@
 
     .range-slider {
         height: 60px;
-        border: 1px solid;
     }
     .main-sr-title {
         margin-top: 40px;
         margin-bottom: 40px;
     }
-    #custom-search-input {
-        margin:0;
-        padding: 0;
+    .navbar-form {
+        height: 40px;
     }
-
-    #custom-search-input .search-query {
-        padding-right: 3px;
-        padding-right: 4px \9;
-        padding-left: 3px;
-        padding-left: 4px \9;
-        /* IE7-8 doesn't have border-radius, so don't indent the padding */
-
-        margin-bottom: 0;
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        border-radius: 3px;
+    .btn-search {
+        background: #FFFBED;
+        border-left: 0;
+        border-radius: 0;
+        height: 40px;
     }
+    .btn-search-r {
+        background: #FFFBED;
+        border-left: 0;
+        border-radius: 0;
+        height: 40px;
+        border-right: 0;
 
-    #custom-search-input button {
-        border: 0;
-        background: none;
-        /** belows styles are working good */
-        padding: 2px 5px;
-        position: relative;
-        left: -28px;
-        /* IE7-8 doesn't have border-radius, so don't indent the padding */
-        margin-bottom: 0;
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        border-radius: 3px;
-        color:#D9230F;
     }
-
-    .search-query:focus + button {
-        z-index: 3;
+    input[type=text], select {
+        width: 100%;
+        display: inline-block;
+        box-sizing: border-box;
+        height: 40px;
+        background: #FFFBED;
+        border-radius: 0;
+        border-right: 1px solid #FFFBED;;
+        border-left: 0;
     }
-
+    .form-control:focus{
+        border-color: #cccccc;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
     /*./Search*/
+
 }
 
 
