@@ -1,6 +1,12 @@
 .blue {
     color:#6473FA;
 }
+.dark-gr {
+    color: #c4c4c4;
+}
+.lg-gr {
+    color: #767676
+}
 .fs15 {
     font-size: 15pt;
 }
@@ -22,6 +28,10 @@ p {
 
 .hrstyle {
     margin-top: 40px;
+}
+.toppad {
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 @media screen and (max-width: 600px) {
     .divTable{

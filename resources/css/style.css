@@ -164,6 +164,7 @@ body {
 }
 .footer li a{
     text-decoration: none;
+    color: #6473FA;
 }
 .footer li a:hover{
     color: #767676

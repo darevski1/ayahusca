@@ -26,7 +26,7 @@
         #touchScroller
         {
             width:100%;
-            height: 60px;
+            height: 50px;
             position: relative;
         }
 
@@ -39,11 +39,12 @@
            ...and so on. */
         #touchScroller div.scrollableArea p
         {
+            position: relative;
             float: left;
             margin: 0;
-            padding: 0 9px;
-            border-right: 1px solid #c4c4c4;
-            height: 60px;;
+            padding: 0 5px;
+            border-right: 1px solid;
+            height: 150px;;
             /* If you don't want the images in the scroller to be selectable, try the following
                block of code. It's just a nice feature that prevent the images from
                accidentally becoming selected/inverted when the user interacts with the scroller. */
@@ -73,8 +74,7 @@
             float: left;
             margin: 0;
             padding: 0 15px;
-
-            height: 50px;;
+            height: 150px;;
             /* If you don't want the images in the scroller to be selectable, try the following
                block of code. It's just a nice feature that prevent the images from
                accidentally becoming selected/inverted when the user interacts with the scroller. */
@@ -111,32 +111,11 @@
                 <div class="inline-box text-center sub-title-paper">Authors by Bibliographic Proximity</div>
             </div>
 
-            <hr class="toppad dark-gr">
+            <hr>
 
-            <div id="touchScroller">
-                <p href="#" class="inline-block">
-                    <span class="cbs-name">John Smith</span> <br />
-                    <span class="cbs-name-s1 dark-gr"> Active: 1987 - 2007</span>
-                </p>
-                <p class="f14">
-                    Immunological effects<br /> of ayahuasca in mummans
-                </p>
-                <p class="f14">
-                    Ayahuasca and <br />cancer treatment
-                </p>
-                <p class="f14">
-                    Health status <br />of ayahuasca users
-                </p>
-                <p class="f14">
-                    The ritual use of ayahuasca
-                </p>
-                <<p class="f14">
-                    32 papers<br />
-                    Show by clusters<br />
-                    Show list<br />
-                    </p>
-
-            </div>
+            <h5 class="main-sr-title-x2 dark-gr text-center">
+                Select an Author in the chart
+            </h5>
 
 
             <hr class="nopadd">
@@ -146,9 +125,8 @@
 
             <div class="animate-block-graph">
                 <img src="images/dog.jpg" class="img-responsive" alt="">
-
             </div>
-            <h5 class="main-sr-title-x1 dark-gr f14 text-center">
+            <h5 class="main-sr-title-x1  dark-gr f14 text-center">
                 Filters
             </h5>
                 <div id="touchScroller1" class="mt-sliderdiv blue">

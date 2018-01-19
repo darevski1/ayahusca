@@ -72,13 +72,11 @@
     }
     .inline-block {
         width: 150px;
-        border-right: 1px solid;
         height: 50px;
     }
     .animate-block-graph {
         height: 320px;
         width: 90%;
-        border: 1px solid;
         margin: 0px auto;
     }
     .filter-block {
@@ -273,6 +271,10 @@
     .main-sr-title-x2 {
         margin-top: 24px;
         margin-bottom: 24px;
+    }
+    .main-sr-title-x2a {
+        margin-top: 6px;
+        margin-bottom: 18px;
     }
     .navbar-form {
         height: 40px;
