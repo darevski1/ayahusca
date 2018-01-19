@@ -33,7 +33,42 @@ p {
     margin-top: 10px;
     margin-bottom: 0;
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 601px) {
+    .maincontent {
+        width: 80%;
+        min-height: 70%;
+        margin: 0px auto;
+    }
+    .btn-search {
+        background: #FFFBED;
+        border-left: 0;
+        border-radius: 0;
+        height: 40px;
+    }
+    .btn-search-r {
+        background: #FFFBED;
+        border-left: 0;
+        border-radius: 0;
+        height: 40px;
+        border-right: 0;
+
+    }
+    input[type=text], select {
+        width: 100%;
+        display: inline-block;
+        box-sizing: border-box;
+        height: 40px;
+        background: #FFFBED;
+        border-radius: 0;
+        border-right: 1px solid #FFFBED;;
+        border-left: 0;
+        box-shadow: none;
+    }
+    .form-control:focus{
+        border-color: #cccccc;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
     .divTable{
         display: table;
         width: 100%;
@@ -48,8 +83,6 @@ p {
         display: table-header-group;
     }
     .divTableCell, .divTableHead {
-        border-right:solid violet 1px ;
-        border-bottom:solid violet 1px;
         display: table-cell;
         padding: 3px 10px;
 
