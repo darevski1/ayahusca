@@ -1,6 +1,9 @@
 .blue {
     color:#6473FA;
 }
+.fs15 {
+    font-size: 15pt;
+}
 .f15 {
     font-size: 14pt;
     margin: 0;
@@ -57,11 +60,12 @@ p {
 
     /*Reader - 1 */
     .title-a1 {
-        margin-top: 40px;
         font-size:16pt;
+        margin: 0px;
+        padding: 0;
     }
     .title-a2 {
-        margin-top: 40px;
+        margin-top: px;
         font-size:14pt;
         font-weight: bold;
     }

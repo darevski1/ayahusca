@@ -1,6 +1,53 @@
 @media screen and (max-width: 600px) {
-    /* DivTable.com */
+    .ft-block {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        font-size: 15pt;
+    }
 
+    .info-box {
+        margin-bottom: 100px;
+        height: 40px;
+    }
+    .closebtn {
+        background: none;
+        border: none;
+        color: gray;
+        margin-right:5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        float: right;
+        position: absolute;
+    }
+    .buble-block {
+        margin-top:15px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    .title-a1 {
+        font-size:16pt;
+        margin: 0px;
+        padding: 0;
+    }
+    .title-a2 {
+        margin-top: 17px;
+        font-size:14pt;
+        font-weight: bold;
+    }
+    .lead-text {
+        font-size: 14pt;
+        margin-bottom: 30px;
+        line-height: 20px;
+    }
+    .alignleft {
+        float: left;
+    }
+    .alignright {
+        float: right;
+    }
     .nbslide p{
         border-right: 1px solid;
         padding: 9px;
@@ -45,10 +92,15 @@
     .main-head-paper {
         margin-top: -19px;
     }
+    .main-head-paper-xs {
+        margin-top: -17px;
+
+    }
     .main-head-paper h5{
-        font-size: 14pt;
+        font-size: 15pt;
         margin: 0;
         padding: 0;
+        line-height: 20px;
     }
     .sub-title-paper {
         font-size: 14pt;
@@ -67,6 +119,9 @@
     }
     .sub-top {
         margin-bottom: 40px;
+    }
+    .add-on {
+        margin-top: -5px;
     }
     .sub-top h4 {
         margin: 0;
@@ -173,13 +228,17 @@
     }
     /*Search*/
     .spacex {
-        margin-top: 25px;
+         margin-top: 25px;
+         font-size: 15pt;
+     }
+    .spacex-1 {
+        margin-top: 17px;
         font-size: 15pt;
     }
     .search-res {
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     }
     .spaceline {
         line-spacin:20px; ;
@@ -187,6 +246,22 @@
 
     .range-slider {
         height: 60px;
+    }
+    .active-dark {
+        color: black;
+    }
+    .mt-sliderdiv {
+        height: 40px;
+        line-height:40px;
+        text-align: center;
+    }
+    .mt-sliderdiv_p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main-sr-title-x3 {
+        margin-top: 26px;
+        margin-bottom: 19px;
     }
     .main-sr-title {
         margin-top: 40px;
@@ -225,6 +300,7 @@
         border-radius: 0;
         border-right: 1px solid #FFFBED;;
         border-left: 0;
+        box-shadow: none;
     }
     .form-control:focus{
         border-color: #cccccc;
