@@ -1,56 +1,65 @@
 @media screen and (max-width: 600px) {
-    .divTable{
+    .divTable {
         display: table;
         width: 100%;
         margin-top: 40px;
     }
+
     .divTableRow {
         display: table-row;
         height: 140px;
     }
+
     .divTableHeading {
         background-color: #EEE;
         display: table-header-group;
     }
+
     .divTableCell, .divTableHead {
         display: table-cell;
         padding: 3px 10px;
 
     }
+
     .divTableHeading {
         background-color: #EEE;
         display: table-header-group;
         font-weight: bold;
     }
+
     .divTableFoot {
         background-color: #EEE;
         display: table-footer-group;
         font-weight: bold;
     }
+
     .divTableBody {
         display: table-row-group;
     }
 
     /*Reader - 1 */
     .title-a1 {
-        font-size:16pt;
+        font-size: 16pt;
         margin: 0px;
         padding: 0;
     }
+
     .title-a2 {
         margin-top: px;
-        font-size:14pt;
+        font-size: 14pt;
         font-weight: bold;
     }
+
     .lead-text {
         font-size: 14pt;
         margin-bottom: 30px;
-        line-height: 20px;
     }
+
     /* ./ Reader - 1 */
     .xlstyle {
         font-size: 20pt;
     }
+
     .ft-block {
         display: inline-block;
         float: left;
@@ -62,11 +71,12 @@
         margin-bottom: 100px;
         height: 40px;
     }
+
     .closebtn {
         background: none;
         border: none;
         color: gray;
-        margin-right:5px;
+        margin-right: 5px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -74,139 +84,170 @@
         float: right;
         position: absolute;
     }
+
     .buble-block {
-        margin-top:15px;
+        margin-top: 15px;
         height: 40px;
         margin-bottom: 20px;
     }
+
     .title-a1 {
-        font-size:16pt;
+        font-size: 16pt;
         margin: 0px;
         padding: 0;
     }
+
     .title-a2 {
         margin-top: 17px;
-        font-size:14pt;
+        font-size: 14pt;
         font-weight: bold;
     }
+
     .lead-text {
         font-size: 14pt;
         margin-bottom: 30px;
-        line-height: 20px;
     }
+
     .alignleft {
         float: left;
     }
+
     .alignright {
         float: right;
     }
-    .nbslide p{
+
+    .nbslide p {
         border-right: 1px solid;
         padding: 9px;
         margin: 10px;
     }
+
     .col1, .col2, .col3 {
-        display:table-cell;
+        display: table-cell;
     }
+
     .div-col {
         height: 34px;
     }
+
     .top-sp {
         margin-top: 5px;
     }
+
     .cbs-name {
         font-size: 15pt;
         font-weight: bold;
     }
+
     .cbs-name-s1 {
         color: #c4c4c4;
         font-size: 14pt;
     }
+
     .inline-block {
         width: 150px;
         height: 50px;
     }
+
     .animate-block-graph {
         height: 320px;
         width: 90%;
         margin: 0px auto;
     }
+
     .filter-block {
         height: 40px;
-        border:1px solid;
+        border: 1px solid;
     }
+
     .sidebar {
         display: none;
     }
+
     /*Papers*/
     .main-head-paper {
         margin-top: -19px;
     }
+
     .main-head-paper-xs {
         margin-top: -17px;
 
     }
-    .main-head-paper h5{
+
+    .main-head-paper h5 {
         font-size: 15pt;
         margin: 0;
         padding: 0;
         line-height: 20px;
     }
+
     .sub-title-paper {
         font-size: 14pt;
         font-weight: bold;
         margin: 0;
         padding: 0;
     }
-    .singleine{
+
+    .singleine {
         margin-top: 12px;
     }
+
     .sub-title-paper-search {
         font-size: 14pt;
         margin-top: -3px;
         font-weight: bold;
         padding: 0;
     }
+
     .sub-top {
         margin-bottom: 40px;
     }
+
     .add-on {
         margin-top: -5px;
     }
+
     .sub-top h4 {
         margin: 0;
         padding: 0;
     }
+
     .search-title {
         margin-top: 2px;
     }
+
     .inline-box {
         display: inline-block;
     }
-   .content-block {
-        margin-top: 6px;
-        height:303px; ;
-   }
-   .sub-h5 {
-       height: 20px;
-   }
 
-   .sub-h5 h5 {
-       margin: 0;
-       padding: 0;
-       font-size: 14pt;
-       margin-top: 6px;
-   }
-   .animate-block {
-       width: 100%;
-       height:100px;
-   }
-   .slide-block {
-       width: 100%;
-       height: 64px;
-       border: 1px solid;
-       border: 0px;
-   }
+    .content-block {
+        margin-top: 6px;
+        height: 303px;;
+    }
+
+    .sub-h5 {
+        height: 20px;
+    }
+
+    .sub-h5 h5 {
+        margin: 0;
+        padding: 0;
+        font-size: 14pt;
+        margin-top: 6px;
+    }
+
+    .animate-block {
+        width: 100%;
+        height: 100px;
+    }
+
+    .slide-block {
+        width: 100%;
+        height: 64px;
+        border: 1px solid;
+        border: 0px;
+    }
+
     .row-slide {
         width: 90px;
         border-right: 1px solid #c4c4c4;
@@ -214,35 +255,44 @@
         padding: 5px;
         display: inline-block;
     }
-/* Reader */
+
+    /* Reader */
     .main-reader {
         margin-top: 40px;
 
     }
+
     .main-head-reader {
         font-size: 20pt;
         margin: 0;
         margin-top: -10px;
     }
+
     .sub-head-reader {
         font-size: 14pt;
     }
+
     .reader-p {
         font-size: 16pt;
         font-weight: bold;
     }
+
     .main-content-reader {
         margin-top: 40px;
     }
+
     .main-content-reader-1 {
         margin-top: -4px;
     }
+
     .space-xm {
         margin-top: 100px;
     }
+
     .space-xm-1 {
         margin-top: 84px;
     }
+
     .fontsi {
         font-size: 16pt;
         display: table-cell;
@@ -250,93 +300,112 @@
         padding: 5px;
         padding-right: 0;
     }
+
     .space-xs {
         margin-top: 60px;
         margin-bottom: 40px;
     }
+
     .cont {
         width: 100%;
     }
-    .left-div
-    {
+
+    .left-div {
         display: inline-block;
         width: 45%;
         text-align: left;
     }
-    .right-div
-    {
+
+    .right-div {
         display: inline-block;
         width: 45%;
         text-align: right;
     }
-/*./ Reader*/
+
+    /*./ Reader*/
     .left-db {
-        float:left;
+        float: left;
     }
+
     .right-db {
-        float:right;
+        float: right;
     }
+
     /*Search*/
     .spacex {
-         margin-top: 25px;
-         font-size: 15pt;
-     }
+        margin-top: 25px;
+        font-size: 15pt;
+    }
+
     .spacex-1 {
         margin-top: 17px;
         font-size: 15pt;
     }
+
     .search-res {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 16px;
     }
+
     .spaceline {
-        line-spacin:20px; ;
+        line-spacin: 20px;;
     }
 
     .range-slider {
         height: 60px;
     }
+
     .active-dark {
         color: black;
     }
+
     .mt-sliderdiv {
         height: 40px;
-        line-height:40px;
+        line-height: 40px;
         text-align: center;
     }
-    .mt-sliderdiv_p{
+
+    .mt-sliderdiv_p {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .main-sr-title-x3 {
         margin-top: 26px;
         margin-bottom: 19px;
     }
+
     .main-sr-title {
         margin-top: 40px;
         margin-bottom: 40px;
     }
+
     .main-sr-title-x1 {
         height: 20px;
     }
+
     .main-sr-title-x2 {
         margin-top: 24px;
         margin-bottom: 24px;
     }
+
     .main-sr-title-x2a {
         margin-top: 6px;
         margin-bottom: 18px;
     }
+
     .navbar-form {
         height: 40px;
     }
+
     .btn-search {
         background: #FFFBED;
         border-left: 0;
         border-radius: 0;
         height: 40px;
     }
+
     .btn-search-r {
         background: #FFFBED;
         border-left: 0;
@@ -345,6 +414,7 @@
         border-right: 0;
 
     }
+
     input[type=text], select {
         width: 100%;
         display: inline-block;
@@ -356,20 +426,20 @@
         border-left: 0;
         box-shadow: none;
     }
-    .form-control:focus{
+
+    .form-control:focus {
         border-color: #cccccc;
         -webkit-box-shadow: none;
         box-shadow: none;
     }
+
     /*./Search*/
-.wer {
-    width: 70;
-}
+    .wer {
+        width: 70;
+    }
 }
 
-
-#TouchScroller div.scrollableArea *
-{
+#TouchScroller div.scrollableArea * {
     position: relative;
     display: block;
     float: left;
