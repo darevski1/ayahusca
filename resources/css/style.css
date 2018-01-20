@@ -5,11 +5,31 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background: #FFFBED;
     font-family: 'Karla', sanis-serif;
     font-size: 14pt;
     line-height: 20px;
+}
+.cirlce {
+    height: 35px;
+    width: 35px;
+    color: #ffffff;
+    background: #6473FA;
+    border-radius: 100%;
+    margin-left: 20px;
+    line-height: 35px;
+    text-align: center;
+    -webkit-box-shadow: -1px 1px 18px -4px rgba(100,115,250,1);
+    -moz-box-shadow: -1px 1px 18px -4px rgba(100,115,250,1);
+    box-shadow: -1px 1px 18px -4px rgba(100,115,250,1);
+}
+.line-block {
+    width: 50%;
+    height: 40px;
+    display: inline-block;
+    float: left;
 }
 .top-left-corner {
     top:0;
@@ -22,20 +42,25 @@ body {
     width: 50px;
     height: 5px;
     border-radius: 20px;
-    margin-left: 5px;
-
+    margin-left: 10px;
 }
 .res-slim-1 {
     background: #6473FA;
     width: 50px;
     height: 7px;
     border-radius: 20px;
-    margin-left: 5px;
+    margin-left: 10px;
+}
+table tr td:nth-child(odd) {
+    width: 30%;
+}
 
-
+table tr td:nth-child(even) {
+    width: 60%;
 }
 .res-info {
     color: #c4c4c4;
+    margin-left: 10px;
 }
 .block-box {
     height: 320px;
