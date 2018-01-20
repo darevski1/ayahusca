@@ -10,7 +10,7 @@
     <!-- Bootstrap -->
     <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
     <link href="resources/css/style.css" rel="stylesheet">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="Stylesheet" type="text/css" href="vendor/css/smoothTouchScroll.css" />
 
     <!-- Font-->
@@ -26,8 +26,9 @@
         #touchScroller
         {
             width:100%;
-            height: 50px;
+            height: 70px;
             position: relative;
+            padding-top:7px ;
         }
 
         /* Replace the last selector for the type(s) of element(s) you have in
@@ -39,12 +40,11 @@
            ...and so on. */
         #touchScroller div.scrollableArea p
         {
-            position: relative;
             float: left;
             margin: 0;
-            padding: 0 5px;
-            border-right: 1px solid;
-            height: 150px;;
+            padding: 0 9px;
+            border-right: 1px solid #c4c4c4;
+            height: 60px;;
             /* If you don't want the images in the scroller to be selectable, try the following
                block of code. It's just a nice feature that prevent the images from
                accidentally becoming selected/inverted when the user interacts with the scroller. */
@@ -74,7 +74,8 @@
             float: left;
             margin: 0;
             padding: 0 15px;
-            height: 150px;;
+
+            height: 50px;;
             /* If you don't want the images in the scroller to be selectable, try the following
                block of code. It's just a nice feature that prevent the images from
                accidentally becoming selected/inverted when the user interacts with the scroller. */
@@ -104,51 +105,48 @@
                 </div>
                 <div style="clear: both;"></div>
             </div>
-            <div class="main-head-paper">
-                <h5 class="text-center fs15">Ayahuasca - Knowledge Mapping</h5>
+            <div class="main-head-paper text-center">
+                <h5 class="text-center paper-title">Ayahusca Science</h5>
+                <h5 class="text-center nopadd fs16 blue">
+                    Topics
+                <span style="float:right; padding-right: 15px;" >
+                    6 <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </span>
+                </h5>
             </div>
-            <div class="sub-title-paper text-center">
-                <div class="inline-box text-center sub-title-paper">Authors by Bibliographic Proximity</div>
-            </div>
-
-            <hr>
-
-            <h5 class="main-sr-title-x2 dark-gr text-center">
-                Select an Author in the chart
-            </h5>
-
-
-            <hr class="nopadd">
-            <h5 class="main-sr-title-x2a blue text-center">
-                1890 to 2017
-            </h5>
 
             <div class="animate-block-graph">
-                <img src="images/placeholder.gif" class="img-responsive" alt="">
+                <!--<img src="images/placeholder.gif" class="img-responsive" alt="">-->
+
             </div>
-            <h5 class="main-sr-title-x1  dark-gr f14 text-center">
-                Filters
-            </h5>
-                <div id="touchScroller1" class="mt-sliderdiv blue">
-                    <p class="mt-sliderdiv_p active-dark ">
-                        None
-                    </p>
-                    <p>
-                        Drug
-                    </p>
-                    <p>
-                        plant
-                    </p>
-                    <p>
-                        drug
-                    </p>
-                    <p>
-                        expirience
-                    </p>
-                    <p>
-                        drug
-                    </p>
-                </div>
+            <div class="animate-block-c4">
+                <!--animation -->
+
+            </div>
+            <div id="touchScroller" class="shadow">
+                <p href="#" class="inline-block">
+                    <span class="cbs-name">John Smith</span> <br />
+                    <span class="cbs-name-s1 dark-gr"> Active: 1987 - 2007</span>
+                </p>
+                <p class="f14">
+                    Immunological effects<br /> of ayahuasca in mummans
+                </p>
+                <p class="f14">
+                    Ayahuasca and <br />cancer treatment
+                </p>
+                <p class="f14">
+                    Health status <br />of ayahuasca users
+                </p>
+                <p class="f14">
+                    The ritual use of ayahuasca
+                </p>
+                <<p class="f14">
+                32 papers<br />
+                Show by clusters<br />
+                Show list<br />
+            </p>
+
+            </div>
 
         </div>
         <!--Footer-->
@@ -190,7 +188,7 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="vendor/js/bootstrap.min.js"></script>
-<script src="resources/js/jscript.js"></script>
+<svript src="resources/js/jscript.js"></svript>
 <script>
     $(function() {
         $("#touchScroller").smoothTouchScroll({ continuousScrolling: true });

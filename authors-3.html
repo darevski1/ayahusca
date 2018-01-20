@@ -49,12 +49,52 @@
                    <table style="width: 100%;" >
                        <tbody>
                        <tr>
-                           <td>&nbsp;</td>
-                           <td>&nbsp;</td>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
                        </tr>
                        <tr>
-                           <td>&nbsp;</td>
-                           <td>&nbsp;</td>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim-1"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim-1"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim-1"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim-1"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim-1"></div></td>
+                           <td><p class="res-info">term</p></td>
                        </tr>
                        </tbody>
                    </table>
@@ -63,28 +103,70 @@
                    <table style="width: 100%;" >
                        <tbody>
                        <tr>
-                           <td>&nbsp;</td>
-                           <td>&nbsp;</td>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
                        </tr>
                        <tr>
-                           <td>&nbsp;</td>
-                           <td>&nbsp;</td>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim-1"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim-1"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim-1"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim-1"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
+                       </tr>
+                       <tr>
+                           <td><div class="res-slim"></div></td>
+                           <td><p class="res-info">term</p></td>
                        </tr>
                        </tbody>
                    </table>
                </div>
 
            </div>
-            <div class="info-box">
-                <input type="button" value="x" class="closebtn" onclick="self.close()">
-                <div class="text-center ft-block blue fs15">
-                    <p class="fs15">Search</p>
+            <div class="cleafix"></div>
+             <div class="info-box" id="close">
+                 <div class="close">
+                     <p class="text-right close-btn">x</p>
+                 </div>
+                <div class="text-center ft-block-1  blue fs15">
+                    <input type="text" placeholder="Search">
                 </div>
                 <div class="text-center ft-block blue">
-                        <p class="fs15">List of papers</p>
-                        <p class="fs15">for topic + term</p>
-            </div>
-
+                   <p class="fs15">List of papers</p>
+                   <p class="fs13">for topic + term</p>
+                </div>
         </div>
             <!--Footer-->
             <div class="footer text-center">
@@ -116,17 +198,28 @@
 </div>
     </div>
 <!--./ wraper-->
+
 <script language="javascript" type="text/javascript">
     function windowClose() {
         window.open('','_parent','');
         window.close();
     }
+
+
 </script>
+
 <script src="vendor/js/sly.min.js"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="vendor/js/bootstrap.min.js"></script>
-<svript src="resources/js/jscript.js"></svript>
+<script src="resources/js/jscript.js"></script>
+<script language="javascript" type="text/javascript">
+    $( document ).ready(function() {
+        $(".close").click(function(){
+            $("#close").fadeOut(1000);;
+        });
+    });
+</script>
 </body>
 </html>

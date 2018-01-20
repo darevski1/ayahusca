@@ -1,7 +1,10 @@
 @import "mobile.css";
 @import "links.css";
 @import "reader.css";
-
+.h1 .h2 .h3 .h4 .h5 .h6 {
+    margin: 0;
+    padding: 0;
+}
 body {
     background: #FFFBED;
     font-family: 'Karla', sanis-serif;
@@ -14,7 +17,29 @@ body {
     position: relative;
 
 }
+.res-slim {
+    background: #6473FA;
+    width: 50px;
+    height: 5px;
+    border-radius: 20px;
+    margin-left: 5px;
 
+}
+.res-slim-1 {
+    background: #6473FA;
+    width: 50px;
+    height: 7px;
+    border-radius: 20px;
+    margin-left: 5px;
+
+
+}
+.res-info {
+    color: #c4c4c4;
+}
+.block-box {
+    height: 320px;
+}
 .top-left-corner:after {
     content:'';
     position:absolute;
@@ -114,17 +139,15 @@ body {
     margin-bottom: 80px;
 }
 
-.title-head {
+.sub-title-c1 {
     font-size: 14pt;
-    font-weight: bold;
-    margin-top: 40px;
+    margin-top: 8px;
 }
 .sub-title {
     font-size: 14pt;
-    margin-top: 10px;
 }
 .sub-title-y {
-    margin-top: 30px;
+    margin-top: 18px;
     font-size: 14pt;
 }
 .sub-title-y1{
@@ -133,18 +156,18 @@ body {
     color: #6473FA;
 }
 .sub-title-y1z{
-    margin-top: 78px;
+    margin-top: 68px;
     font-size: 14pt;
     color: #6473FA;
 }
 .sub-title-y2{
-    margin-top: 80px;
+    margin-top: 40px;
     font-size: 14pt;
 }
 .wrap-box {
     text-align: center;
     color:#6473FA;
-    margin-top: 50px;
+    margin-top: 44px;
 }
 .floating-box {
     width: 72px;
@@ -217,7 +240,7 @@ body {
     padding: 0;
 }
 .sub-title-y2a {
-    margin: 16px 36px 22px 36px;
+    margin: 5px 36px 16px 36px;
     font-size: 14pt;
 }
 .wrap-sub {
@@ -237,7 +260,7 @@ body {
     float: left;
 }
 .menu-handle {
-    margin-top: 8px;
+    margin-top: 7px;
     border-top:2px solid;
     width: 30px;
     color: #6473FA;
@@ -411,3 +434,7 @@ body {
 
 
 }
+hr {
+    color: #c4c4c4;
+}
+
