@@ -12,6 +12,14 @@ body {
     font-size: 14pt;
     line-height: 20px;
 }
+.showmenu {
+    position: absolute;
+    overflow: scroll;
+    transition:4s;
+}
+.shadow {
+    border: 1px solid #c4c4c4;
+}
 .cirlce {
     height: 35px;
     width: 35px;
@@ -462,4 +470,64 @@ table tr td:nth-child(even) {
 hr {
     color: #c4c4c4;
 }
+#touchScroller
+{
+    width:100%;
+    height: 70px;
+    position: relative;
+}
 
+/* Replace the last selector for the type(s) of element(s) you have in
+   your scroller.
+   If you have images use #touchScroller div.scrollableArea img,
+   If you have div's use #touchScroller div.scrollableArea div,
+   if you have links use #touchScroller div.scrollableArea a,
+   or add several selectors if you have mixed content
+   ...and so on. */
+#touchScroller div.scrollableArea p
+{
+    float: left;
+    margin: 0;
+    padding: 0 9px;
+    border-right: 1px solid #c4c4c4;
+    height: 60px;;
+    /* If you don't want the images in the scroller to be selectable, try the following
+       block of code. It's just a nice feature that prevent the images from
+       accidentally becoming selected/inverted when the user interacts with the scroller. */
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#touchScroller1
+{
+    width:100%;
+    height: 50px;
+    position: relative;
+}
+
+/* Replace the last selector for the type(s) of element(s) you have in
+   your scroller.
+   If you have images use #touchScroller div.scrollableArea img,
+   If you have div's use #touchScroller div.scrollableArea div,
+   if you have links use #touchScroller div.scrollableArea a,
+   or add several selectors if you have mixed content
+   ...and so on. */
+#touchScroller1 div.scrollableArea p
+{
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0 15px;
+
+    height: 50px;;
+    /* If you don't want the images in the scroller to be selectable, try the following
+       block of code. It's just a nice feature that prevent the images from
+       accidentally becoming selected/inverted when the user interacts with the scroller. */
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
