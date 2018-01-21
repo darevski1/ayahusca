@@ -279,7 +279,10 @@
         margin-top: 6px;
         height: 303px;;
     }
+    .spacer {
+        margin: 0 10px 0 10px;
 
+    }
     .sub-h5 {
         height: 20px;
     }
@@ -313,10 +316,16 @@
 
     /* Reader */
     .main-reader {
-        margin-top: 40px;
+        margin-top: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
 
     }
+    .main-reader-1 {
+        margin-left: 10px;
+        margin-right: 10px;
 
+    }
     .main-head-reader {
         font-size: 20pt;
         margin: 0;
@@ -335,9 +344,15 @@
     .main-content-reader {
         margin-top: 40px;
     }
-
+    .devider-1l {
+        margin-top: 5px;
+    }
+    .devider {
+        margin-top: 10px;
+    }
     .main-content-reader-1 {
-        margin-top: -4px;
+        margin-top: 11px;
+        line-height: 20px;
     }
 
     .space-xm {
@@ -345,7 +360,7 @@
     }
 
     .space-xm-1 {
-        margin-top: 84px;
+        margin-top: 74px;
     }
 
     .fontsi {
