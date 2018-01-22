@@ -1,5 +1,61 @@
 @media only screen and (min-width: 768px) {
     /* For desktop: */
+    #touchScroller {
+        display: none;
+    }
+    .search-res {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 16px;
+    }
+    .search-res h5 {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 36px;
+        text-align: left;
+    }
+    .sub-title-paper {
+        font-size: 18pt;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    input[type=text], select {
+        width: 100%;
+        display: inline-block;
+        box-sizing: border-box;
+        height: 40px;
+        background: #FFFBED;
+        border-radius: 0;
+        border-right: 1px solid #FFFBED;;
+        box-shadow: none;
+    }
+    .wrapin {
+        width: 80%;
+    }
+
+     .ds-tps {
+         border: 1px solid red;
+         height: 400px;
+         background: red;
+         height: 500px;
+         color: white;
+     }
+    .ds-tps p{
+        display: block;
+        height: 200px;
+    }
+    .bottomspace {
+        margin-bottom: 100px;
+    }
+    .menu-handle {
+        display: none;
+    }
+    .title-head {
+        font-size: 18pt;
+        font-weight: bold;
+        margin-top: 127px;
+        margin-bottom: 10px;
+    }
     .ds-title {
         text-align: left;
     }
@@ -65,14 +121,8 @@
         font-size: 15pt;
         text-align: left;
     }
-    .search-res {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 36px;
 
-    }
     .maincontent {
-        width: 80%;
         min-height: 70%;
         margin: 0px auto;
     }
@@ -87,20 +137,8 @@
         border-left: 0;
         border-radius: 0;
         height: 40px;
-        border-right: 0;
+    }
 
-    }
-    input[type=text], select {
-        width: 100%;
-        display: inline-block;
-        box-sizing: border-box;
-        height: 40px;
-        background: #FFFBED;
-        border-radius: 0;
-        border-right: 1px solid #FFFBED;;
-        border-left: 0;
-        box-shadow: none;
-    }
     .form-control:focus{
         border-color: #cccccc;
         -webkit-box-shadow: none;
@@ -181,6 +219,9 @@
     .ds {
         width: 70%;
     }
+
+
+
 }
 
 #time-range p {

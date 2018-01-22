@@ -1,4 +1,5 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+
     .paper-title {
         font-size: 14pt;
     }
@@ -21,8 +22,7 @@
 
     .divTableCell, .divTableHead {
         display: table-cell;
-        padding: 3px 10px;
-
+        padding: 10px 10px;
     }
 
     .divTableHeading {
@@ -69,7 +69,7 @@
         float: left;
         width: 40%;
         font-size: 15pt;
-        bottom: 0;
+        bottom: 7px;
         position: relative;
         height: 43px;
     }
@@ -78,10 +78,10 @@
         border: 1px solid #FFFBED;
         padding-left: 30px;
         background: rgba(255, 255, 255, 0.5);
-        margin: 0 0 10px 0;
+        margin: 0 0 20px 0;
         font-size: 15pt;
         font-weight: bold;
-
+        padding-bottom:19px;
     }
 
     .ft-block {
@@ -89,7 +89,7 @@
         float: left;
         width: 60%;
         font-size: 15pt;
-        bottom: 0;
+        bottom: 7px;
         position: relative;
         height: 43px;
     }
@@ -100,7 +100,7 @@
     }
 
     .close-btn {
-
+        font-size: 18pt;
         margin-right: 10px;
     }
 
@@ -406,7 +406,9 @@
         margin-top: 25px;
         font-size: 15pt;
     }
-
+    .spacetop {
+        padding-top: 15px;
+    }
     .spacex-1 {
         margin-top: 17px;
         font-size: 15pt;
@@ -459,8 +461,8 @@
     }
 
     .main-sr-title-x2w {
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 2px;
+        margin-bottom: 2px;
     }
 
     .animate-block-c4 {
@@ -523,7 +525,7 @@
         height: 40px;
         background: #FFFBED;
         border-radius: 0;
-        border-right: 1px solid #FFFBED;;
+        border-right: 1px solid #FFFBED;
         border-left: 0;
         box-shadow: none;
     }
@@ -535,9 +537,7 @@
     }
 
     /*./Search*/
-    .wer {
-        width: 70;
-    }
+
 }
 
 #TouchScroller div.scrollableArea * {

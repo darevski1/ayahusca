@@ -18,7 +18,7 @@ body {
     transition:4s;
 }
 .shadow {
-    border: 1px solid #c4c4c4;
+
 }
 .cirlce {
     height: 35px;
@@ -108,10 +108,6 @@ table tr td:nth-child(even) {
     right: 10px;
 }
 
-
-.maincontent {
-    min-height: 70%;
-}
 .dropmodel {
     font-size: 15px;
     color: #6473FA;
@@ -194,7 +190,7 @@ table tr td:nth-child(even) {
     color: #6473FA;
 }
 .sub-title-y2{
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 14pt;
 }
 .wrap-box {
@@ -216,7 +212,7 @@ table tr td:nth-child(even) {
     margin-left: 78px;
 }
 .block-dot {
-    margin: 0 36px 0 36px;
+    margin: -18px 36px 0 36px;
 }
 .dot {
     padding: 0;
@@ -250,6 +246,7 @@ table tr td:nth-child(even) {
 }
 /*Footer*/
 .footer {
+    margin-top: 40px;
     bottom:0;
     width:100%;
 }
@@ -473,7 +470,7 @@ hr {
 #touchScroller
 {
     width:100%;
-    height: 70px;
+    height:68px;
     position: relative;
 }
 
@@ -488,7 +485,8 @@ hr {
 {
     float: left;
     margin: 0;
-    padding: 0 9px;
+    margin-left: 9px;
+    padding: 0 6px;
     border-right: 1px solid #c4c4c4;
     height: 60px;;
     /* If you don't want the images in the scroller to be selectable, try the following
