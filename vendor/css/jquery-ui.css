@@ -756,7 +756,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-slider-horizontal .ui-slider-handle {
 	top: -.5em;
-	margin-left: -.6em;
+	margin-left: -.4em;
 }
 .ui-slider-horizontal .ui-slider-range {
 	top: 0;
@@ -884,7 +884,6 @@ body .ui-tooltip {
 /* Component containers
 ----------------------------------*/
 .ui-widget {
-	font-family: Arial,Helvetica,sans-serif;
 	font-size: 1em;
 }
 .ui-widget .ui-widget {
@@ -894,7 +893,6 @@ body .ui-tooltip {
 .ui-widget select,
 .ui-widget textarea,
 .ui-widget button {
-	font-family: Arial,Helvetica,sans-serif;
 	font-size: 1em;
 }
 .ui-widget.ui-widget-content {

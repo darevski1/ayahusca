@@ -351,14 +351,13 @@ table tr td:nth-child(even) {
     height: 8px;
     background: #D7D7D7;
     border: 1px solid #BABABA;
-    box-shadow: 0 1px 0 #FFF, 0 1px 0 #CFCFCF inset;
     clear: both;
-    margin: 8px 0;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-    border-radius: 6px;
+    margin: 4px 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
 }
 .ui-slider {
     position: relative;
@@ -371,7 +370,7 @@ table tr td:nth-child(even) {
 .ui-slider .ui-slider-range {
     position: absolute;
     z-index: 1;
-    height: 3px;
+    height: 2px;
     font-size: .7em;
     display: block;
 
