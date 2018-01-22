@@ -242,8 +242,47 @@
     padding: 10px;
 }
 .brs {
-    border:1px solid red;
+    background: #c4c4c4;
 }
 .bp {
     padding: 5px;
+}
+
+.box1 {
+    width: 8%;
+    display:inline-block;
+    margin: 0;
+}
+.box2 {
+    width: 83%;
+    display:inline-block;
+    margin: 0;
+}
+.box3 {
+    width: 8%;
+    display:inline-block;
+    margin: 0;
+}
+.text {
+    padding: 2px 0;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+}
+#container {
+    white-space:nowrap;
+    text-align:center;
+}
+
+.main-nav-title {
+    font-size: 14pt;
+}
+.box-suv {
+    margin: 0;
+}
+.box-suv-title {
+    font-size: 15pt;
+    font-weight: bold;
+    margin: 0;
+    margin-top: -5px;
 }
