@@ -19,7 +19,10 @@
         color:white;
         font-weight:bold;
         text-align:center;
-    }
+    }.box-m1 h5 {
+             font-size: 15pt;
+             font-weight: bold;
+         }
     .box-m1 {
         top:0;
         left:0;
@@ -35,6 +38,7 @@
         right: 0;
         width: 10%; position: absolute;
         float: right;
+        display:inline-block;
     }
     #container {
         white-space:nowrap;
