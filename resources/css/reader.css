@@ -254,7 +254,7 @@
     margin: 0;
 }
 .box2 {
-    width: 83%;
+    width: 82%;
     display:inline-block;
     margin: 0;
 }
@@ -269,6 +269,22 @@
     font-weight:bold;
     text-align:center;
 }
+.box-m1 {
+    top:0;
+    left:0;
+    width:100%;
+    display:inline-block;
+    margin: 0;
+    position: relative;
+    font-size: 15pt;
+    font-weight: bold;
+}
+.box-m2 {
+    top:0;
+    right: 0;
+    width: 10%; position: absolute;
+    float: right;
+}
 #container {
     white-space:nowrap;
     text-align:center;
@@ -279,6 +295,8 @@
 }
 .box-suv {
     margin: 0;
+    width: 100%;
+    padding: 0;
 }
 .box-suv-title {
     font-size: 15pt;
