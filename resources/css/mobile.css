@@ -553,8 +553,9 @@
         margin-bottom: 10px;
     }
 
-    .main-sr-title-x1 {
-        height: 20px;
+    .main-sr-title-x1{
+        height: 18px;
+        margin: 0;
     }
 
     .main-sr-title-x11 {
@@ -563,8 +564,8 @@
     }
 
     .main-sr-title-x2 {
-        margin-top: 24px;
-        margin-bottom: 24px;
+        margin-top: 23px;
+        margin-bottom: 23px;
     }
 
     .main-sr-title-x2a {

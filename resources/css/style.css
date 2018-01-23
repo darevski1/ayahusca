@@ -484,7 +484,7 @@ hr {
     float: left;
     margin: 0;
     padding: 0 15px;
-
+    margin-bottom: -5px;
     height: 50px;;
     /* If you don't want the images in the scroller to be selectable, try the following
        block of code. It's just a nice feature that prevent the images from
@@ -502,4 +502,8 @@ hr {
 }
 .hrline-desk {
     border: 1px solid #c4c4c4;
+}
+.hrlinetop {
+    color: #c4c4c4;
+    margin-top: 10px;
 }
