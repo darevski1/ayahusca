@@ -70,7 +70,7 @@ table tr td:nth-child(even) {
     margin-left: 10px;
 }
 .block-box {
-    height: 320px;
+    height: 520px;
 }
 .top-left-corner:after {
     content:'';
@@ -296,22 +296,24 @@ table tr td:nth-child(even) {
     margin-left: 10px;
 }
 .menu-handle-1 {
-    margin-top: 7px;
-    width: 30px;
-    color: #6473FA;
-    padding-right: 10px;
-}
-.menu-handle2 {
-    margin-top: 8px;
-    border-top:2px solid;
+    margin-top:7px;
     width: 30px;
     color: #6473FA;
     margin-right: 10px;
+    float: right;
+    font-size: 12pt;
+}
+.menu-handle2 {
+    margin-top: 5px;
+    border-top:2px solid;
+    width: 30px;
+    color: #6473FA;
 }
 .menu-t {
     margin: 0;
     font-size: 12px;
     color: #6473FA;
+
 }
 .wrap-sub:nth-last-child(2){
     margin-bottom: 22px;
@@ -445,9 +447,12 @@ hr {
    ...and so on. */
 #touchScroller div.scrollableArea p
 {
+    padding: 0;
     float: left;
     margin-left: 9px;
     padding-right:6px;
+    line-height: 20px;
+    width: 150px;
     border-right: 1px solid #c4c4c4;
     height: 64px;;
     /* If you don't want the images in the scroller to be selectable, try the following
@@ -489,4 +494,12 @@ hr {
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
+}
+.slidediv {
+    width: 150px;
+    border-right:1px solid #c4c4c4;
+    background: #c4c4c4;
+}
+.hrline-desk {
+    border: 1px solid #c4c4c4;
 }

@@ -1,6 +1,18 @@
 @media only screen and (min-width: 768px) {
     /* For desktop: */
-
+    #touchScroller {
+        display: none;
+    }
+    .main-head-paper-m1 {
+        font-size: 25px;
+    }
+    .sub-title-paper-s1 {
+        font-size: 18pt;
+        font-weight: bold;
+        margin-top: 2px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
     .search-res {
         margin-left: 10px;
         margin-right: 10px;
@@ -51,7 +63,6 @@
     .main-content-reader-1{
         font-size: 14pt;
         margin-top: 30px;
-        line-height: 20px;
     }
     .main-head-paper {
         font-size: 30px;
@@ -73,6 +84,7 @@
         margin: 0 0 10px 0;
         font-size: 15pt;
         font-weight: bold;
+        background: #FFFBED ;
 
     }
 
@@ -111,6 +123,7 @@
     .maincontent {
         min-height: 70%;
         margin: 0px auto;
+        display: block;
     }
     .btn-search {
         background: #FFFBED;
@@ -231,7 +244,7 @@
     background: #c4c4c4;
 }
 .bp {
-    padding: 5px;
+    padding:2px;
 }
 
 .center {

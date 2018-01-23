@@ -247,13 +247,16 @@
         color: #c4c4c4;
         font-size: 14pt;
     }
-
+    .linespace {
+        margin-top:1px;
+        margin-bottom: 1px;
+    }
     .inline-block {
         height: 64px;
     }
 
     .animate-block-graph {
-        height: 320px;
+        height: 352px;
         width: 90%;
         margin: 0px auto;
         margin-top: 5px;
@@ -272,11 +275,23 @@
         display: none;
     }
 
+    .main-head-paper-m1 {
+        margin-top: -48px;
+        height: 15px;
+        font-size: 14pt;
+        position:relative;
+    }
+    .main-head-paper-m1 h5 {
+        font-size: 14pt;
+    }
     /*Papers*/
     .main-head-paper {
-        margin-top: -20px;
+        margin-top: -17px;
+        height: 55px;
     }
-
+    .main-head-paper1 {
+        margin-top: -17px;
+    }
     .main-head-paper-xs {
         margin-top: -17px;
 
@@ -290,19 +305,27 @@
         margin: 0;
         padding: 0;
     }
-
+    .wrap-blck-desk {
+        display: none;
+    }
+    .sub-title-paper-s1 {
+        font-size: 15pt;
+        font-weight: bold;
+        margin-top: 2px;
+        padding: 0;
+    }
     .sub-title-paper {
         font-size: 14pt;
         font-weight: bold;
         margin: 0;
         padding: 0;
     }
-.sub-title-paper-vs {
-    font-size: 15pt;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-}
+    .sub-title-paper-vs {
+        font-size: 15pt;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
     .singleine {
         margin-top: 12px;
     }
@@ -597,6 +620,20 @@
     }
 
     /*./Search*/
+    #flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .flex-item {
+        width: 50%;
+        height: 19px;
+    }
+    .flex-item h5{
+        font-size: 14pt;
+    }
 
 }
 

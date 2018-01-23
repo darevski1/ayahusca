@@ -31,24 +31,24 @@
 <div class="wrapper">
     <div class="content">
         <div class="maincontent wrapin">
-            <div id="textbox">
-                <div class="alignleft">
+            <div id="flex-container">
+                <div class="flex-item">
                     <div class="menu-handle">
-                        <h4 class="menu-t">Menu</h4>
+                        <h4 class="menu-t text-right">Menu</h4>
                     </div>
                 </div>
-                <div class="alignright">
+                <div class="flex-item">
                     <div class="menu-handle-1">
                         <h4 class="menu-t">Close</h4>
                     </div>
                 </div>
-                <div style="clear: both;"></div>
+                <div class="clearfix"></div>
             </div>
-            <div class="main-head-paper">
-                <h5 class="text-center fs15">Ayahuasca - Knowledge Mapping</h5>
+            <div class="main-head-paper-m1">
+                <h5 class="text-center">Ayahusca - Knowledge Mapping</h5>
             </div>
-            <div class="sub-title-paper text-center">
-                <div class="inline-box text-center sub-title-paper">Authors by Bibliographic Proximity</div>
+            <div class="text-center">
+                <div class="inline-box text-center sub-title-paper-s1">Authors by Bibliographic Proximity</div>
             </div>
 
             <hr class="toppad dark-gr">
@@ -157,8 +157,8 @@
 <script src="resources/js/jscript.js"></script>
 <script>
     $(function() {
-        $("#touchScroller").smoothTouchScroll({ continuousScrolling: true });
-        $("#touchScroller1").smoothTouchScroll({ continuousScrolling: true });
+        $("#touchScroller").smoothTouchScroll({ continuousScrolling: false });
+        $("#touchScroller1").smoothTouchScroll({ continuousScrolling: false });
     });
 </script>
 </body>
