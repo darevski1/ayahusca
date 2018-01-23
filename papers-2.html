@@ -21,77 +21,12 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style type="text/css">
 
-        #touchScroller
-        {
-            width:100%;
-            height: 70px;
-            position: relative;
-            padding-top:7px ;
-        }
-
-        /* Replace the last selector for the type(s) of element(s) you have in
-           your scroller.
-           If you have images use #touchScroller div.scrollableArea img,
-           If you have div's use #touchScroller div.scrollableArea div,
-           if you have links use #touchScroller div.scrollableArea a,
-           or add several selectors if you have mixed content
-           ...and so on. */
-        #touchScroller div.scrollableArea p
-        {
-            float: left;
-            margin: 0;
-            padding: 0 9px;
-            border-right: 1px solid #c4c4c4;
-            height: 60px;;
-            /* If you don't want the images in the scroller to be selectable, try the following
-               block of code. It's just a nice feature that prevent the images from
-               accidentally becoming selected/inverted when the user interacts with the scroller. */
-            -webkit-user-select: none;
-            -khtml-user-select: none;
-            -moz-user-select: none;
-            -o-user-select: none;
-            user-select: none;
-        }
-        #touchScroller1
-        {
-            width:100%;
-            height: 50px;
-            position: relative;
-        }
-
-        /* Replace the last selector for the type(s) of element(s) you have in
-           your scroller.
-           If you have images use #touchScroller div.scrollableArea img,
-           If you have div's use #touchScroller div.scrollableArea div,
-           if you have links use #touchScroller div.scrollableArea a,
-           or add several selectors if you have mixed content
-           ...and so on. */
-        #touchScroller1 div.scrollableArea p
-        {
-            position: relative;
-            float: left;
-            margin: 0;
-            padding: 0 15px;
-
-            height: 50px;;
-            /* If you don't want the images in the scroller to be selectable, try the following
-               block of code. It's just a nice feature that prevent the images from
-               accidentally becoming selected/inverted when the user interacts with the scroller. */
-            -webkit-user-select: none;
-            -khtml-user-select: none;
-            -moz-user-select: none;
-            -o-user-select: none;
-            user-select: none;
-        }
-
-    </style>
 </head>
 <body>
 <div class="wrapper">
     <div class="content">
-        <div class="maincontent">
+        <div class="maincontent wrapin">
             <div id="textbox">
                 <div class="alignleft">
                     <div class="menu-handle">
@@ -100,54 +35,51 @@
                 </div>
                 <div class="alignright">
                     <div class="menu-handle-1">
-                        <h4 class="menu-t">Close</h4>
+
                     </div>
                 </div>
                 <div style="clear: both;"></div>
             </div>
             <div class="main-head-paper text-center">
                 <h5 class="text-center paper-title">Ayahusca Science</h5>
-                <h5 class="text-center nopadd fs16 blue">
-                    Topics
-                <span style="float:right; padding-right: 15px;" >
-                    6 <i class="fa fa-caret-down" aria-hidden="true"></i>
-                </span>
-                </h5>
+                <h5 class="text-center paper-title bold"> Topics <span class="right inleftpading blue">6&#9662</span></h5>
             </div>
+
 
             <div class="animate-block-graph">
                 <!--<img src="images/placeholder.gif" class="img-responsive" alt="">-->
 
             </div>
-            <div class="animate-block-c4">
-                <!--animation -->
+            <h5 class="dark-gr f14 text-center">
+                Most Silient terms
+            </h5>
 
+            <div class="animate-block-c4">
+<!--animation -->
             </div>
-            <div id="touchScroller" class="shadow">
+            <div id="touchScroller" class="bp shadow ds-tps">
                 <p href="#" class="inline-block">
                     <span class="cbs-name">John Smith</span> <br />
                     <span class="cbs-name-s1 dark-gr"> Active: 1987 - 2007</span>
                 </p>
-                <p class="f14">
+                <p class="f15">
                     Immunological effects<br /> of ayahuasca in mummans
                 </p>
-                <p class="f14">
+                <p class="f15">
                     Ayahuasca and <br />cancer treatment
                 </p>
-                <p class="f14">
+                <p class="f15">
                     Health status <br />of ayahuasca users
                 </p>
-                <p class="f14">
+                <p class="f15">
                     The ritual use of ayahuasca
                 </p>
-                <p class="f14">
+                <p class="f15">
                 32 papers<br />
                 Show by clusters<br />
                 Show list<br />
             </p>
-
-            </div>
-
+            </div><!-- ./touchScroller-->
         </div>
         <!--Footer-->
         <div class="footer text-center">

@@ -1,8 +1,6 @@
 @media only screen and (min-width: 768px) {
     /* For desktop: */
-    #touchScroller {
-        display: none;
-    }
+
     .search-res {
         margin-left: 10px;
         margin-right: 10px;
@@ -31,18 +29,6 @@
     }
     .wrapin {
         width: 80%;
-    }
-
-     .ds-tps {
-         border: 1px solid red;
-         height: 400px;
-         background: red;
-         height: 500px;
-         color: white;
-     }
-    .ds-tps p{
-        display: block;
-        height: 200px;
     }
     .bottomspace {
         margin-bottom: 100px;
@@ -248,4 +234,13 @@
     padding: 5px;
 }
 
-
+.center {
+    display:inline-block;
+    position: absolute;
+    left:0;
+    right:0;
+}
+.right {
+    display:inline-block;
+    float:right
+}

@@ -40,6 +40,10 @@ p {
     margin-top: 10px;
     margin-bottom: 0;
 }
-@media screen and (min-width: 601px) {
-
+.inleftpading {
+   padding-right: 10px;
+}
+.bold {
+    font-size: 15pt;
+    font-weight: bold;
 }
