@@ -60,6 +60,7 @@
     }
     .paper-title {
         font-size: 14pt;
+        margin-top: -4px;
     }
 
     .divTable {
@@ -259,7 +260,7 @@
         height: 352px;
         width: 90%;
         margin: 0px auto;
-        margin-top: 5px;
+        margin-top: 1px;
     }
 
     .mid-block {
@@ -286,8 +287,8 @@
     }
     /*Papers*/
     .main-head-paper {
-        margin-top: -17px;
-        height: 55px;
+        margin-top: -18px;
+        height: 44px;
     }
     .main-head-paper1 {
         margin-top: -17px;
