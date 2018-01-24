@@ -50,6 +50,7 @@ body {
     height: 5px;
     border-radius: 20px;
     margin-left: 10px;
+
 }
 .res-slim-1 {
     background: #6473FA;
@@ -65,7 +66,10 @@ table tr td:nth-child(even) {
 .res-info {
     color: #c4c4c4;
     margin-left: 10px;
-    margin: 0;
+}
+.res-info:hover {
+    color: #6473FA;
+    margin-left: 10px;
 }
 .block-box {
     height: 520px;
