@@ -58,9 +58,6 @@ body {
     border-radius: 20px;
     margin-left: 10px;
 }
-table tr td:nth-child(odd) {
-    width: 30%;
-}
 
 table tr td:nth-child(even) {
     width: 60%;
@@ -68,6 +65,7 @@ table tr td:nth-child(even) {
 .res-info {
     color: #c4c4c4;
     margin-left: 10px;
+    margin: 0;
 }
 .block-box {
     height: 520px;

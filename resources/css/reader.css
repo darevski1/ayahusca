@@ -1,5 +1,9 @@
 @media only screen and (min-width: 768px) {
     /* For desktop: */
+    .paper-title {
+        font-size: 20pt;
+    }
+
     #touchScroller {
         display: none;
     }
@@ -65,7 +69,6 @@
         margin-top: 30px;
     }
     .main-head-paper {
-        font-size: 30px;
     }
     .ft-block-1 {
         display: inline-block;
@@ -181,12 +184,6 @@
         margin: 0px;
         padding: 0;
     }
-    .title-a2 {
-        margin-top: px;
-        font-size:14pt;
-        font-weight: bold;
-    }
-
     /* ./ Reader - 1 */
     .xlstyle {
         font-size: 20pt;

@@ -60,13 +60,13 @@
     }
     .paper-title {
         font-size: 14pt;
-        margin-top: -4px;
+        margin-top: -8px;
     }
 
     .divTable {
         display: table;
         width: 100%;
-        margin-top: 40px;
+        margin-top: 31px;
     }
 
     .divTableRow {
@@ -106,16 +106,9 @@
         margin: 0px;
         padding: 0;
     }
-
-    .title-a2 {
-        margin-top: px;
-        font-size: 14pt;
-        font-weight: bold;
-    }
-
     .lead-text {
         font-size: 14pt;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
      /* ./ Reader - 1 */
     .xlstyle {
@@ -206,13 +199,8 @@
         margin-top: 17px;
         font-size: 14pt;
         font-weight: bold;
+        margin-bottom: 10px;
     }
-
-    .lead-text {
-        font-size: 14pt;
-        margin-bottom: 30px;
-    }
-
     .alignleft {
         float: left;
     }
