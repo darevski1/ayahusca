@@ -22,7 +22,7 @@
 <body>
 <div class="wrapper">
     <div class="content">
-        <div class="maincontent">
+        <div class="maincontent wrapin">
             <div class="menu-handle">
                 <h4 class="menu-t" id="menu">Menu</h4>
             </div>
@@ -46,8 +46,8 @@
             </div>
             <h5 class="text-center sub-title-y1z">Introduction <span class="lg-gr"> &</span> Method</h5>
             <h5 class="text-center sub-title-y2 lg-gr bottomspace">Current Dataset</h5>
-
-                <div class="col-sm-6 col-xs-12 nopadd">
+            <div class="section group">
+                <div class="col span_1_of_2">
                     <div class="block-dot">
                         <div class="dot"></div>
                         <div class="dot"></div>
@@ -101,7 +101,7 @@
                     </div>
                     <h5 class="sub-title-y2a">Journal Article, 531</h5>
                 </div>
-                <div class="col-sm-6 col-xs-12 nopadd">
+                <div class="col span_1_of_2">
                     <div class="block-dot spacetop">
                         <div class="dot"></div>
                         <div class="dot"></div>
@@ -188,10 +188,19 @@
                             <div class="dot"></div>
                         </div>
                     </div>
-
                     <div class="wrap-sub">
-                        <div class="sub-title-y2-ainlie">Conference Paper, 5</div>
+                        <div class="sub-title-y2-ainlie">Thesis, 28</div>
                         <div class="sub-title-y2-ainlie-2">
+
+
+                        </div>
+                    </div>
+                    <div class="wrap-sub">
+                        <div class="sub-title-y2-ainlie">Document, 8</div>
+                        <div class="sub-title-y2-ainlie-2">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
                             <div class="dot"></div>
                             <div class="dot"></div>
                             <div class="dot"></div>
@@ -205,15 +214,16 @@
                             <div class="dot"></div>
                             <div class="dot"></div>
                             <div class="dot"></div>
-
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
                         </div>
                     </div>
                     <div class="wrap-sub">
                         <div class="sub-title-y2-ainlie">Presentation, 3</div>
                         <div class="sub-title-y2-ainlie-2">
-                            <div class="dot"></div>
-                            <div class="dot"></div>
-                            <div class="dot"></div>
+
 
                         </div>
                     </div>
@@ -223,7 +233,11 @@
                             <div class="dot"></div>
                             <div class="dot"></div>
                             <div class="dot"></div>
-
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
                         </div>
                     </div>
                     <div class="wrap-sub">
@@ -231,10 +245,10 @@
                         <div class="sub-title-y2-ainlie-2">
                             <div class="dot"></div>
                             <div class="dot"></div>
-
                         </div>
                     </div>
                 </div>
+            </div>
 
             <div class="clearfix"></div>
             <div class="col-xs-12 dvd"></div>
@@ -257,7 +271,7 @@
         <hr class="hrline">
         <ul>
             <li><a href="">Home</a></li>
-            <li><a href="papers/papers-1.html">Papers</a></li>
+            <li><a href="">Papers</a></li>
             <li><a href="">Authors</a></li>
             <li><a href="">Search</a></li>
             <li class="divider"></li>
@@ -280,7 +294,7 @@
 
     $(document).ready(function(){
        $("#menu").click(function(){
-          $("#sidebar").slideToggle();
+          $("#sidebar").show();
        });
     });
 </script>

@@ -11,8 +11,9 @@
     <link href="../vendor/css/bootstrap.min.css" rel="stylesheet">
     <link href="../resources/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <link href="../vendor/css/jquery-ui.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="../vendor/css/jquery.mobile-1.4.5.min.css">
+    <script src="../vendor/js/jquery.js"></script>
+     <script src="../vendor/js/jquery.mobile-1.4.5.min.js"></script>
     <!-- Font-->
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -45,28 +46,29 @@
             <div class="sub-top">
                 <h5 class="text-center search-title blue">Search</h5>
             </div>
+
             <form role="search">
-                <div class="input-group add-on">
-                    <input class="form-control" placeholder="Search" name="search" id="srch-term" type="text">
+                <div class="input-group add-on ">
+                    <input class="form-control" placeholder="Search" name="search" id="srch-term" type="text" data-role="none" >
                     <div class="input-group-btn">
-                        <button class="btn btn-default btn-search" type="submit"><i class="fa fa-times blue" aria-hidden="true"></i></button>
+                        <button class="btn btn-default btn-search" data-role="none" type="submit"><i class="fa fa-times blue" aria-hidden="true"></i></button>
                     </div>
                     <div class="input-group-btn">
-                        <button class="btn btn-default btn-search-r" type="submit"><i class="fa fa-search blue" aria-hidden="true"></i></button>
+                        <button class="btn btn-default btn-search-r"data-role="none" type="submit"><i class="fa fa-search blue" aria-hidden="true"></i></button>
                     </div>
                 </div>
+
+                <div data-role="rangeslider" data-mini="true" class="tophgs">
+                    <input name="range-4a" id="range-4a" min="1978" max="2018" value="0" type="input">
+                    <input name="range-4b" id="range-4b" min="1978" max="2018" value="2018" type="input">
+                </div>
             </form>
-            <p>
-                <input type="text" id="amount" readonly style="border:0; color:#6473FA; font-weight:bold;">
-            </p>
-            <div id="slider-range"></div>
-            <h5 class="main-sr-title-x3 text-center">
-            Authors:
-            </h5>
+
+
 
             <div class="search-res">
                 <p class="blue f15">Name Surname</p>
-                <p class="f14" style="text-align:left;">
+                <p class="f14" style="text-align:left; margin-top: -5px;">
                     Active 1989 - 2007:
                     <span  style="float:right;">32 documets</span>
                 </p>
@@ -174,29 +176,12 @@
     </div>
 </div>
 <!--./ wraper-->
-
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="../vendor/js/bootstrap.min.js"></script>
 <script src="../resources/js/jscript.js"></script>
-<script src="../vendor/js/jquery-ui.js"></script>
 
-<script>
-    $( function() {
-        $( "#slider-range" ).slider({
-            range: true,
-            min: 1978,
-            max: 2018,
-            values: [1978, 2018],
-            slide: function( event, ui ) {
-                $( "#amount" ).val( " " + ui.values[ 0 ] + " -  " + ui.values[ 1 ] );
-            }
-        });
-        $( "#amount" ).val( " " + $( "#slider-range" ).slider( "values", 0 ) +
-                " -  " + $( "#slider-range" ).slider( "values", 1 ) );
-    } );
-</script>
+
+
 </body>
 </html>
