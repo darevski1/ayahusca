@@ -429,6 +429,7 @@ hr {
     width:100%;
     height:64px;
     position: relative;
+    border: 1px solid #efeeee;
 }
 
 /* Replace the last selector for the type(s) of element(s) you have in

@@ -89,6 +89,9 @@
     .main-head-paper-1 {
         font-size: 25pt;
     }
+    .main-head-paper-m h1{
+        margin-top: -130px;
+    }
     .ft-block-1 {
         display: inline-block;
         float: left;
