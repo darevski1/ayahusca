@@ -14,6 +14,17 @@
         display:inline-block;
         margin: 0;
     }
+    .hrline {
+        margin-top: 240px;
+    }
+    .divider {
+        height: 1px;
+        width:100%;
+        display:block; /* for use on default inline elements like span */
+        margin: 9px 0;
+        overflow: hidden;
+        background-color: #e5e5e5;
+    }
     .text {
         padding: 2px 0;
         color:white;
@@ -62,7 +73,12 @@
         font-size: 14pt;
         margin-top: -8px;
     }
-
+    .paper-title a {
+        color: #6473FA;
+    }
+    .paper-title a:hover {
+        color: #6473FA;
+    }
     .divTable {
         display: table;
         width: 100%;
@@ -166,9 +182,9 @@
     }
 
     .shadow {
-        -webkit-box-shadow: 0px -2px 5px 0px rgba(196, 196, 196, 1);
-        -moz-box-shadow: 0px -2px 5px 0px rgba(196, 196, 196, 1);
-        box-shadow: 0px -2px 5px 0px rgba(196, 196, 196, 1);
+        -webkit-box-shadow: 2px -11px 20px -13px rgba(100,115,250,0.83);
+        -moz-box-shadow: 2px -11px 20px -13px rgba(100,115,250,0.83);
+        box-shadow: 2px -11px 20px -13px rgba(100,115,250,0.83);
     }
 
     .closebtn {
@@ -188,6 +204,31 @@
         margin-top: 15px;
         height: 40px;
         margin-bottom: 20px;
+    }
+    .topnav ul{
+        list-style-type: none;
+    }
+    .topnav li {
+        text-decoration: none;
+        list-style: none;
+    }
+    .topnav li a{
+        text-decoration: none;
+        font-size: 12pt;
+        color: #6473FA;
+    }
+    .left-menu {
+        float:left;
+    }
+
+    .left-menu li a {
+        padding-left: 10px;
+    }
+    .right-menu {
+        float:right;
+    }
+    .right-menu li a {
+        padding-right: 12px;
     }
 
     .title-a1 {
@@ -630,7 +671,29 @@
     .flex-item h5{
         font-size: 14pt;
     }
+    .vrdiv {
+      width: 5px;
+      height: 30px;
+      background: #6473FA;
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border: 0px solid #000000;
+        margin: 3px;
+        display: inline-block;
+}
 
+    .vrdiv2 {
+        width: 3px;
+        height: 35px;
+        background: #6473FA;
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border: 0px solid #000000;
+        margin: 3px;
+        display: inline-block;
+    }
 }
 
 #TouchScroller div.scrollableArea * {

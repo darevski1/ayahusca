@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+.spacetop {
+    padding-top: 19px;
+}
 body {
     background: #FFFBED;
     font-family: 'Karla', sanis-serif;
@@ -12,6 +19,38 @@ body {
     align-items: stretch;
     width: 100%;
 }
+.container{
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position:relative;
+}
+.maincontent {
+    min-height: 70%;
+    margin: 0px auto;
+    display: block;
+}
+
+.text-center {
+    text-align: center
+}
+.grey {
+    color: #c4c4c4;
+}
+.dark-grey {
+    color: #767676;
+}
+.blue {
+    color: #6473FA;
+}
+.sub-title-y1z {
+    font-size: 14pt;
+    margin-top: 62px;
+}
+/*==================================
+         sidemenu style
+====================================*/
+
 .sidemenu {
     float: right;
     min-width: 220px;
@@ -21,17 +60,17 @@ body {
     transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
     transform-origin: bottom left;
 }
-.container{
-    width: 100%;
-    min-height: 100vh;
-    transition: all 0.3s;
-    position:relative;
-}
 .sidemenu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     margin-top: 80px;
+}
+.sidemenu ul li {
+    margin-top: 80px;
+}
+.sidebar-header {
+    padding: 30px;
 }
 .sidemenu li a {
     text-decoration: none;
@@ -41,16 +80,179 @@ body {
     font-family: 'Karla', sans-serif;
     font-weight: bold;
 }
-nav ul{
-    list-style-type: none;
-    margin-top: 2px;
+.sidemenu li:nth-last-child(1) {
+    margin-bottom: 80px;
+}
+
+/*==================================
+         End sidemenu  style
+====================================*/
+    .hero-text-box-paper h1 {
+        margin-top:100px;
+        margin-bottom: 20px;
+        font-size: 25pt;
+        text-align: center;
+    }
+    .hero-text-box-paper p {
+        margin-top:20px;
+        margin-bottom: 20px;
+        font-size: 18pt;
+        text-align: center;
+    }
+/*==================================
+         Home page style
+====================================*/
+
+.hero-text-box h1 {
+    margin-top:100px;
+    margin-bottom: 20px;
+    font-size: 25pt;
+    text-align: center;
+}
+.hero-text-box p {
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 18pt;
+    text-align: center;
+}
+.wrap-box {
+    text-align: center;
+    color:#6473FA;
+    margin-top: 44px;
+}
+.floating-box {
+    width: 72px;
+    height: 72px;
+}
+.wrap-float-box {
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    border: 1px solid #6473FA;
+}
+.wrap-float-box:nth-child(2){
+    margin-left: 78px;
+}
+/*==================================
+         End Home page style
+====================================*/
+.wrap-blck-desk {
+    margin: 0px auto;
+    width: 80%;
+}
+.wrap-blck-desk a{
+    text-decoration: none;
+    width: 80%;
+}
+.bold {
+    font-size: 15pt;
+    font-weight: bold;
+}
+.sub-main-head-title {
+    font-size: 10pt;
+}
+.sub-main-head-p {
+    font-size: 13.5pt;
+}
+.hrline-desk {
+    border: 1px solid  #c4c4c4;
+}
+
+.article-wrap {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #c4c4c4;
+    color: #000000;
+}
+.article-wrap a{
+    color: #000000;
+}
+.article-wrap a:hover{
+    color: #6473FA;
+}
+.linespace {
+    margin-bottom: 40px;
+}
+.block-wrap {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+/*Footer*/
+.footer {
+    margin-top: 40px;
+    bottom:0;
+    width:100%;
+    position: absolute;
+}
+.footer ul {
+    margin: 0;
     padding: 0;
 }
-nav ul li a {
+.footer li {
+    list-style: none;
+    margin-bottom: 40px;
+}
+.footer li a{
     text-decoration: none;
-    display: inline-block;
     color: #6473FA;
-    font-size: 12pt;
-    font-family: 'Karla', sans-serif;
+}
+.footer li a:hover{
+    color: #767676
+}
+
+/*topics */
+.lead-text {
+    font-size: 14pt;
+    margin-bottom: 30px;
+}
+.title-a1 {
+    font-size:16pt;
+    margin: 0px;
+    padding: 0;
+}
+.title-a2 {
+    margin-top: 17px;
+    font-size:14pt;
     font-weight: bold;
+}
+
+.top-left-corner {
+    top:0;
+    left:0;
+    position: relative;
+
+}
+.top-left-corner:after {
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:10px; /*change this for the size of the gap*/
+    border-bottom: 1px solid #c4c4c4;
+    left: 10px;
+}
+
+.top-left-corner:before {
+    content:'';
+    position:absolute;
+    top:10px;
+    right:0;
+    bottom:10px;     /*change this for the size of the gap*/
+    border-right: 1px solid #c4c4c4;
+}
+.top-right-corner {
+    top:0;
+    left:0;
+    position: relative;
+
+}
+
+.top-right-corner:after {
+    content:'';
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:10px; /*change this for the size of the gap*/
+    border-bottom: 1px solid #c4c4c4;
+    right: 10px;
 }

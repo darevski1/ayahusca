@@ -3,12 +3,29 @@
     .paper-title {
         font-size: 20pt;
     }
-
+    .paper-title a {
+        color: #6473FA;
+    }
+    .paper-title a:hover {
+        color: #6473FA;
+    }
     #touchScroller {
         display: none;
     }
     .main-head-paper-m1 {
         font-size: 25px;
+    }
+    .hrline {
+       display: none;
+    }
+    .divider {
+        height: 1px;
+        width:100%;
+        display:block; /* for use on default inline elements like span */
+        margin: 9px 0;
+        overflow: hidden;
+        background-color: #6473FA ;
+
     }
     .sub-title-paper-s1 {
         font-size: 18pt;
@@ -218,7 +235,10 @@
         width: 70%;
     }
 
-
+.wrap {
+    width: 80%;
+    margin: 0px auto;
+}
 
 }
 
@@ -255,4 +275,11 @@
 .right {
     display:inline-block;
     float:right
+}
+.divscs {
+    border: 1px solid;
+
+}
+.right-menu {
+    float:right;
 }

@@ -17,7 +17,9 @@ body {
     transition:4s;
 }
 .shadow {
-
+    -webkit-box-shadow: 2px -11px 20px -13px rgba(100,115,250,0.83);
+    -moz-box-shadow: 2px -11px 20px -13px rgba(100,115,250,0.83);
+    box-shadow: 2px -11px 20px -13px rgba(100,115,250,0.83);
 }
 .cirlce {
     height: 35px;
@@ -64,7 +66,7 @@ table tr td:nth-child(even) {
     width: 60%;
 }
 .res-info {
-    color: #c4c4c4;
+    color: #767676 ;
     margin-left: 10px;
 }
 .res-info:hover {
@@ -221,9 +223,8 @@ table tr td:nth-child(even) {
     width: 2px;
     background-color: #6473FA;
     display: inline-block;
-    margin-top: -2.5px;
-    margin-right: 10px;
-    margin-bottom: -2.5px;
+    margin:5px;
+    margin-top: -5px;
 }
 .dot-1 {
     padding: 0;
@@ -234,22 +235,14 @@ table tr td:nth-child(even) {
     margin-bottom: 4px;
     margin-left: 2.5px;
 }
-.hrline {
-    margin-top: 240px;
-}
-.divider {
-    height: 1px;
-    width:100%;
-    display:block; /* for use on default inline elements like span */
-    margin: 9px 0;
-    overflow: hidden;
-    background-color: #e5e5e5;
-}
+
+
 /*Footer*/
 .footer {
     margin-top: 40px;
     bottom:0;
     width:100%;
+
 }
 .footer ul {
     margin: 0;
@@ -281,13 +274,13 @@ table tr td:nth-child(even) {
 }
 .sub-title-y2-ainlie-2 {
     display: inline-block;
-    min-width: 50%;
-    float: left;
+    width: auto;
     text-align: right;
+
 }
 .sub-title-y2-ainlie {
     display: inline-block;
-    min-width: 30%;
+    width: auto;
     float: left;
 }
 .menu-handle {
@@ -427,8 +420,6 @@ table tr td:nth-child(even) {
 }
 .sub-main-head-p {
     font-size: 13.5pt;
-
-
 }
 hr {
     color: #c4c4c4;
@@ -497,6 +488,37 @@ hr {
     -o-user-select: none;
     user-select: none;
 }
+#touchScroller2
+{
+    width:100%;
+    height: 50px;
+    position: relative;
+}
+
+/* Replace the last selector for the type(s) of element(s) you have in
+   your scroller.
+   If you have images use #touchScroller div.scrollableArea img,
+   If you have div's use #touchScroller div.scrollableArea div,
+   if you have links use #touchScroller div.scrollableArea a,
+   or add several selectors if you have mixed content
+   ...and so on. */
+#touchScroller2 div.scrollableArea p
+{
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0 15px;
+    margin-bottom: -5px;
+    height: 50px;;
+    /* If you don't want the images in the scroller to be selectable, try the following
+       block of code. It's just a nice feature that prevent the images from
+       accidentally becoming selected/inverted when the user interacts with the scroller. */
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
 .slidediv {
     width: 150px;
     border-right:1px solid #c4c4c4;
@@ -508,4 +530,7 @@ hr {
 .hrlinetop {
     color: #c4c4c4;
     margin-top: 10px;
+}
+.linkrel a {
+    color: #000000;
 }

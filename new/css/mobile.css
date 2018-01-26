@@ -1,0 +1,290 @@
+@media screen and (max-width: 768px) {
+    .footer {
+        margin-top: 40px;
+        bottom:0;
+        width:100%;
+        position: relative;
+    }
+    .footer ul {
+        margin: 0;
+        padding: 0;
+    }
+    .footer li {
+        list-style: none;
+        margin-bottom: 40px;
+    }
+    .footer li a{
+        text-decoration: none;
+        color: #6473FA;
+    }
+    .footer li a:hover{
+        color: #767676
+    }
+
+    .hero-text-box h1 {
+        margin-top:50px;
+        font-size: 14pt;
+        text-align: center;
+    }
+
+    .hero-text-box p {
+        margin-top:-16px;
+        margin-bottom: 20px;
+        font-size: 14pt;
+        text-align: center;
+    }
+    .sidemenu {
+        display: none;
+        position: absolute;
+    }
+    .sub-title {
+        margin-top: -7px;
+    }
+    .sub-title-y1z {
+        font-size: 14pt;
+        margin-top: 62px;
+    }
+    .topnav ul{
+        list-style-type: none;
+    }
+    .topnav li {
+        text-decoration: none;
+        list-style: none;
+    }
+    .topnav li a{
+        text-decoration: none;
+        font-size: 12pt;
+        color: #6473FA;
+    }
+    .left-menu {
+        float:left;
+    }
+
+    .left-menu li a {
+        padding-left: 10px;
+    }
+    .right-menu {
+        float:right;
+    }
+    .right-menu li a {
+        padding-right: 12px;
+    }
+/*==================================
+         papers style
+====================================*/
+    .hero-text-box-paper h1 {
+        margin-top:0px;
+        margin-bottom: 0;
+        font-size: 14pt;
+        text-align: center;
+        font-weight: normal;
+    }
+    .hero-text-box-paper p {
+        margin-top:-3px;
+        font-size: 15pt;
+        text-align: center;
+        font-weight: bold;
+    }
+    .spacer {
+        height: 10px;
+    }
+    .animate-block {
+        height: 352px;
+    }
+    .wrap-blck-desk {
+        display: none;
+    }
+/*==================================
+         papers style
+====================================*/
+    .cbs-name {
+        font-size: 15pt;
+        font-weight: bold;
+        text-decoration: none;
+
+    }
+    .inline-block {
+        height: 64px;
+    }
+    .inline-block a{
+        text-decoration: none;
+    }
+
+    .cbs-name-s1 {
+        color: #c4c4c4;
+        font-size: 14pt;
+        text-decoration: none;
+
+    }
+    .f15 {
+        font-size: 14pt;
+        margin: 0;
+        padding: 0;
+    }
+    .shadow {
+        -webkit-box-shadow: 0px -2px 5px 0px rgba(196, 196, 196, 1);
+        -moz-box-shadow: 0px -2px 5px 0px rgba(196, 196, 196, 1);
+        box-shadow: 0px -2px 5px 0px rgba(196, 196, 196, 1);
+    }
+    .bp {
+        padding:2px;
+    }
+    #touchScroller
+    {
+        width:99%;
+        height:64px;
+        position: relative;
+    }
+
+    /* Replace the last selector for the type(s) of element(s) you have in
+       your scroller.
+       If you have images use #touchScroller div.scrollableArea img,
+       If you have div's use #touchScroller div.scrollableArea div,
+       if you have links use #touchScroller div.scrollableArea a,
+       or add several selectors if you have mixed content
+       ...and so on. */
+    #touchScroller div.scrollableArea p
+    {
+        padding: 0;
+        float: left;
+        margin-left: 9px;
+        padding-right:6px;
+        line-height: 20px;
+        width: 150px;
+        border-right: 1px solid #c4c4c4;
+        height: 64px;;
+        /* If you don't want the images in the scroller to be selectable, try the following
+           block of code. It's just a nice feature that prevent the images from
+           accidentally becoming selected/inverted when the user interacts with the scroller. */
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+    #touchScroller1
+    {
+        width:100%;
+        height: 50px;
+        position: relative;
+    }
+
+    /* Replace the last selector for the type(s) of element(s) you have in
+       your scroller.
+       If you have images use #touchScroller div.scrollableArea img,
+       If you have div's use #touchScroller div.scrollableArea div,
+       if you have links use #touchScroller div.scrollableArea a,
+       or add several selectors if you have mixed content
+       ...and so on. */
+    #touchScroller1 div.scrollableArea p
+    {
+        position: relative;
+        float: left;
+        margin: 0;
+        padding: 0 15px;
+        margin-bottom: -5px;
+        height: 50px;;
+        /* If you don't want the images in the scroller to be selectable, try the following
+           block of code. It's just a nice feature that prevent the images from
+           accidentally becoming selected/inverted when the user interacts with the scroller. */
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+
+    /*Topics page */
+    .lead-text {
+        font-size: 14pt;
+        margin-bottom: 20px;
+    }
+    .title-a1 {
+        font-size: 16pt;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .title-a2 {
+        margin-top: 17px;
+        font-size: 14pt;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .wrap {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .divTable {
+        display: table;
+        width: 100%;
+        margin-top: 31px;
+    }
+
+    .divTableRow {
+        display: table-row;
+        height: 140px;
+    }
+
+    .divTableHeading {
+        background-color: #EEE;
+        display: table-header-group;
+    }
+
+    .divTableCell, .divTableHead {
+        display: table-cell;
+        padding: 10px 10px;
+    }
+
+    .divTableHeading {
+        background-color: #EEE;
+        display: table-header-group;
+        font-weight: bold;
+    }
+
+    .divTableFoot {
+        background-color: #EEE;
+        display: table-footer-group;
+        font-weight: bold;
+    }
+
+    .divTableBody {
+        display: table-row-group;
+    }
+    .divTableBody {
+        display: table-row-group;
+    }
+    .btn-search {
+        background: #f9f6e5;
+        border-left:0;
+        border-radius: 0;
+        height: 40px;
+    }
+
+    .btn-search-r {
+        background: #f9f6e5;
+        border-left: 0;
+        border-radius: 0;
+        height: 40px;
+        border-right: 0;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        display: inline-block;
+        box-sizing: border-box;
+        height: 40px;
+        background: #f9f6e5;
+        border-radius: 0;
+        border-right: 1px solid #f9f6e5;
+        border-left: 0;
+        box-shadow: none;
+        color: #6473FA;
+    }
+
+    .form-control:focus {
+        border-color: #cccccc;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
