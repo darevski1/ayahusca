@@ -1,5 +1,19 @@
 @media only screen and (min-width: 768px) {
     /* For desktop: */
+    .buble-block {
+        margin-top: 15px;
+        height: 40px;
+        margin-bottom: 20px;
+        width: 80%;
+        margin: 0px auto;
+    }
+    .centerblock {
+        width: 400px;
+        margin: 0px auto;
+    }
+    .sddsd {
+        float: right;
+    }
     .paper-title {
         font-size: 20pt;
     }
