@@ -31,15 +31,14 @@
                 </div>
                 <div class="flex-item">
                     <div class="menu-handle-1">
-                        <h4 class="menu-t">Close</h4>
+                        <h4 class="menu-t" id="close-page">Close</h4>
                     </div>
                 </div>
                 <div class="clearfix"></div>
             </div>
-            <div class="main-head-paper-m1">
-                <h5 class="text-center">Ayahusca Science</h5>
+            <div class="main-head-paper text-center">
+                <h5 class="text-center paper-title">Ayahusca Science</h5>
             </div>
-
             <div class="buble-block">
                 <div class="line-block">
                     <div class="cirlce">
@@ -166,7 +165,7 @@
             <div class="cleafix"></div>
             <div class="info-box" id="close">
                 <div class="close">
-                    <p class="text-right close-btn">x</p>
+                    <p class="text-right close-btn" id="btn-close">x</p>
                 </div>
                 <div class="text-center ft-block-1 blue fs15">
                     <input type="text" placeholder="Search">
@@ -188,15 +187,6 @@
             </div>
         </div>
         <!--Footer-->
-        <div class="footer text-center">
-            <ul>
-                <li><a href="">About the project</a></li>
-                <li><a href="">Introduction</a></li>
-                <li><a href="">Method</a></li>
-                <li><a href="">Credits</a></li>
-
-            </ul>
-        </div>
     </div>
 
     <!-- ./content-->
@@ -222,6 +212,17 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="../vendor/js/bootstrap.min.js"></script>
-<svript src="resources/js/jscript.js"></svript>
+<script src="resources/js/jscript.js"></script>
+<script>
+
+    $(document).ready(function(){
+        $("#btn-close").click(function(){
+            $("#close").hide("slow");
+        });
+    });
+
+
+</script>
+
 </body>
 </html>

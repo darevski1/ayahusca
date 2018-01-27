@@ -17,9 +17,9 @@ body {
     transition:4s;
 }
 .shadow {
-    -webkit-box-shadow: 2px -11px 20px -13px rgba(100,115,250,0.83);
-    -moz-box-shadow: 2px -11px 20px -13px rgba(100,115,250,0.83);
-    box-shadow: 2px -11px 20px -13px rgba(100,115,250,0.83);
+    -webkit-box-shadow: 0px -3px 19px -11px rgba(100,115,250,1);
+    -moz-box-shadow: 0px -3px 19px -11px rgba(100,115,250,1);
+    box-shadow: 0px -3px 19px -11px rgba(100,115,250,1);
 }
 .cirlce {
     height: 35px;
@@ -73,9 +73,7 @@ table tr td:nth-child(even) {
     color: #6473FA;
     margin-left: 10px;
 }
-.block-box {
-    height: 520px;
-}
+
 .top-left-corner:after {
     content:'';
     position:absolute;
@@ -262,6 +260,11 @@ table tr td:nth-child(even) {
 .nopadd {
     margin: 0;
     padding: 0;
+}
+
+.styletb table, th {
+    border: 1px solid black;
+    height: 20px;
 }
 .sub-title-y2a {
     margin: 5px 36px 16px 36px;
@@ -525,8 +528,11 @@ hr {
     border-right:1px solid #c4c4c4;
     background: #c4c4c4;
 }
-.hrline-desk {
-    border: 1px solid #c4c4c4;
+hr.hrline-desk {
+
+    border: 0;
+    height: 1px;
+    background: #c4c4c4;
 }
 .hrlinetop {
     color: #c4c4c4;
@@ -534,4 +540,11 @@ hr {
 }
 .linkrel a {
     color: #000000;
+}
+.atre {
+    color: #000000;
+}
+.atre a:hover {
+    color: #6473FA;
+    text-decoration: none;
 }

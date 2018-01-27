@@ -3,8 +3,14 @@
     .paper-title {
         font-size: 20pt;
     }
+    .block-box {
+        min-height: 452px;
+    }
     .paper-title a {
         color: #6473FA;
+    }
+    .menu-t {
+        display: none;
     }
     .paper-title a:hover {
         color: #6473FA;
@@ -13,11 +19,15 @@
         display: none;
     }
     .main-head-paper-m1 {
-        font-size: 25px;
+        font-size: 25pt;
     }
     .hrline {
        display: none;
     }
+    .menushow {
+         margin: 0;
+         box-shadow:0 0 50px 0 rgba(0,0,0,.5);
+     }
     .divider {
         height: 1px;
         width:100%;
@@ -285,4 +295,11 @@
 }
 .right-menu {
     float:right;
+}
+.alead {
+    color: #000000;
+}
+.alead:hover {
+    color: #6473FA;
+    text-decoration: none;
 }

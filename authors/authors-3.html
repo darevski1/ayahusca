@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Ayahusca - Reader</title>
+    <title>Ayahusca</title>
 
     <!-- Bootstrap -->
     <link href="../vendor/css/bootstrap.min.css" rel="stylesheet">
     <link href="../resources/css/style.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="Stylesheet" type="text/css" href="../vendor/css/smoothTouchScroll.css" />
+
     <!-- Font-->
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -18,27 +21,34 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style type="text/css">
+
+
+
+    </style>
 </head>
 <body>
 <div class="wrapper">
     <div class="content">
         <div class="maincontent wrapin">
-            <div id="textbox">
-                <div class="alignleft">
+            <div id="flex-container">
+                <div class="flex-item">
                     <div class="menu-handle">
-                        <h4 class="menu-t">Meni</h4>
+                        <h4 class="menu-t text-right">Menu</h4>
                     </div>
                 </div>
-                <div class="alignright">
+                <div class="flex-item">
                     <div class="menu-handle-1">
-                        <h4 class="menu-t">Close</h4>
+                        <h4 class="menu-t"></h4>
                     </div>
                 </div>
-                <div style="clear: both;"></div>
+                <div class="clearfix"></div>
             </div>
-            <div class="main-head-paper-m">
+            <div class="main-head-paper-m1">
                 <h5 class="text-center">Ayahuasca - Knowledge Mapping</h5>
-                <h5 class="text-center topmargin bold">John Smith</h5>
+            </div>
+            <div class="text-center">
+                <div class="inline-box text-center sub-title-paper-s1">John Smith</div>
                 <h5 class="text-center topmargin-p lg-gr">Active: 1978 - 1999</h5>
 
             </div>
@@ -178,27 +188,17 @@
                     <p class="fs13">for topic + term</p>
                 </div>
             </div>
-            <!--Footer-->
-            <div class="footer text-center">
-                <ul>
-                    <li><a href="">About the project</a></li>
-                    <li><a href="">Introduction</a></li>
-                    <li><a href="">Method</a></li>
-                    <li><a href="">Credits</a></li>
 
-                </ul>
-            </div>
-            <div class="footer text-center">
-                <ul>
-                    <li><a href="">About the project</a></li>
-                    <li><a href="">Introduction</a></li>
-                    <li><a href="">Method</a></li>
-                    <li><a href="">Credits</a></li>
-
-                </ul>
-            </div>
         </div>
-
+        <!--Footer-->
+        <div class="footer text-center">
+            <ul>
+                <li><a href="">About the project</a></li>
+                <li><a href="">Introduction</a></li>
+                <li><a href="">Method</a></li>
+                <li><a href="">Credits</a></li>
+            </ul>
+        </div>
     </div>
 
     <!-- ./content-->
@@ -218,12 +218,22 @@
     </div>
 </div>
 <!--./ wraper-->
-
-<script src="../vendor/js/sly.min.js"></script>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- jQuery UI - contains only widget -->
+<script src="../vendor/js/jquery-ui-1.10.3.custom.min.js"></script>
+<!-- jQuery kinetic -->
+<script src="../vendor/js/jquery.kinetic.min.js"></script>
+<!-- Smooth Touch Scroll -->
+<script src="../vendor/js/jquery.smoothTouchScroll.min.js"></script>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="../vendor/js/bootstrap.min.js"></script>
 <script src="../resources/js/jscript.js"></script>
+<script>
+    $(function() {
+        $("#touchScroller").smoothTouchScroll({ continuousScrolling: false });
+        $("#touchScroller1").smoothTouchScroll({ continuousScrolling: false });
+    });
+</script>
 </body>
 </html>
