@@ -30,7 +30,7 @@
             <div id="flex-container">
                 <div class="flex-item">
                     <div class="menu-handle">
-                        <h4 class="menu-t text-right">Menu</h4>
+                        <h4 class="menu-t text-right" id="menu">Menu</h4>
                     </div>
                 </div>
                 <div class="flex-item">
@@ -142,7 +142,7 @@
         <!--Footer-->
     </div>
     <!-- ./content-->
-    <div class="sidebar text-center">
+    <div class="sidebar text-center" id="sidebar">
         <!-- Right side menu-->
         <hr class="hrline">
         <ul>
@@ -169,8 +169,9 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="../vendor/js/bootstrap.min.js"></script>
-<svript src="resources/js/jscript.js"></svript>
+<script src="../resources/js/jscript.js"></script>
 <script>
+
     $(function() {
         $("#touchScroller").smoothTouchScroll({ continuousScrolling: false });
         $("#touchScroller1").smoothTouchScroll({ continuousScrolling: false });
