@@ -42,7 +42,7 @@
             </div>
             <div class="main-head-paper text-center">
                 <h5 class="text-center paper-title">Ayahusca Science</h5>
-                <h5 class="text-center paper-title bold">Papers Clustered by Salient Terms <span class="right inleftpading blue">6&#9662</span></h5>
+                <h5 class="text-center paper-title bold">Papers Clustered by Salient Terms</h5>
             </div>
 
             <div class="animate-block-graph">
@@ -55,13 +55,7 @@
                     </div>
                     <div class="line-block">
                         <div class="cirlce">
-                            <a href="papers-2.html">2</a>
-                        </div>
-
-                    </div>
-                    <div class="line-block">
-                        <div class="cirlce">
-                            <a href="papers-2.html">2</a>
+                            2
                         </div>
                     </div>
                 </div>
@@ -69,12 +63,11 @@
             <h5 class="linespace dark-gr text-center">
                 Most Silient terms
             </h5>
+
             <div id="touchScroller2" class="animate-block-c4">
 
             </div>
-
             <div id="touchScroller" class="bp shadow linkrel">
-
                 <p class="f15 ">
                     <a href="../reader/reader.html">Immunological effects<br /> of ayahuasca in mummans</a>
                 </p>
@@ -175,5 +168,16 @@
 <!-- Smooth Touch Scroll -->
 <script src="../vendor/js/jquery.smoothTouchScroll.min.js"></script>
 <script src="../vendor/js/sly.min.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../vendor/js/bootstrap.min.js"></script>
 <script src="../resources/js/jscript.js"></script>
-        
+<script>
+    $(function() {
+        $("#touchScroller").smoothTouchScroll({ continuousScrolling: false });
+        $("#touchScroller1").smoothTouchScroll({ continuousScrolling: false });
+        $("#touchScroller2").smoothTouchScroll({ continuousScrolling: false });
+    });
+</script>
+</body>
+</html>
