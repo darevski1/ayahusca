@@ -21,7 +21,26 @@ body {
     -moz-box-shadow: -1px -5px 8px -5px rgba(100,115,250,1);
     box-shadow: -1px -5px 8px -5px rgba(100,115,250,1);
 }
+.cirlce a {
+    color: #6473FA;
+}
+.cirlce a:hover {
+    color: #ffffff;
+}
 .cirlce {
+    height: 35px;
+    width: 35px;
+    color: #6473FA;
+    background: #FFFBED;
+    border-radius: 100%;
+    margin-left: 20px;
+    line-height: 35px;
+    text-align: center;
+    -webkit-box-shadow: -1px 1px 18px -4px rgba(100,115,250,1);
+    -moz-box-shadow: -1px 1px 18px -4px rgba(100,115,250,1);
+    box-shadow: -1px 1px 18px -4px rgba(100,115,250,1);
+}
+.cirlce:hover {
     height: 35px;
     width: 35px;
     color: #ffffff;
@@ -34,6 +53,7 @@ body {
     -moz-box-shadow: -1px 1px 18px -4px rgba(100,115,250,1);
     box-shadow: -1px 1px 18px -4px rgba(100,115,250,1);
 }
+
 .line-block {
     width: 50%;
     height: 40px;
@@ -547,4 +567,7 @@ hr.hrline-desk {
 .atre a:hover {
     color: #6473FA;
     text-decoration: none;
+}
+.minus {
+    margin-top: -27px;
 }
